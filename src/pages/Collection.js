@@ -173,7 +173,6 @@ const Collection = () => {
               ...(products[0]?.videos?.map((vid) => ({
                 video: vid.video_url,
                 image: vid.video_thumbnail, // Ensure this property exists in your data
-                image: vid.video_thumbnail,
               })) || []),
             ]}
             settings={BannerSettings}
