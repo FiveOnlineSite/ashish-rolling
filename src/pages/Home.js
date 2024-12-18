@@ -22,20 +22,21 @@ const Home = () => {
       text: "We are rolling shutter manufacturer",
       url: "/rolling-shutter/ms-rolling-shutter",
     },
+
     {
-      image: "/images/banners/high speed door.jpg",
-      text: "Designed for Security, Built to Last",
-      url: "/rolling-shutter/high-speed-door",
-    },
-    {
-      image: "/images/banners/Polycarbonate rolling shutter.png",
+      image: "/images/banners/tira.png",
       text: "Engineered for Strength and Reliability",
       url: "/rolling-shutter/polycarbonate-rolling-shutter",
     },
     {
-      image: "/images/banners/Polycarbonate sliding shutter.jpg",
+      image: "/images/banners/Mask group (2).png",
       text: "Speed, safety, and seamless operations combined",
       url: "/rolling-shutter/polycarbonate-sliding-shutter",
+    },
+    {
+      image: "/images/banners/high-speed.png",
+      text: "Designed for Security, Built to Last",
+      url: "/rolling-shutter/high-speed-door",
     },
   ];
 

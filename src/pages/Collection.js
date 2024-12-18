@@ -259,8 +259,8 @@ const Collection = () => {
             <SlickSlider
               settings={ProductsSettings}
               hasText={false}
-              showProductName={true}
-              filterdProducts={false}
+              showProductName={false}
+              filterdProducts={true}
               items={collection[0].otherproducts?.map((product) => ({
                 productImg: product.productImg,
                 productName: product.productName,
