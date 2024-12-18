@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import CategoryData from "../components/CategoryData";
-import { NavLink, useParams, useLocation } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import SlickSlider from "../components/SlickSlider";
 
 const Category = () => {
@@ -166,7 +166,7 @@ const Category = () => {
                   <div className="key_features_div">
                     <h4 className="category-title">Key Features:</h4>
                     {category.key_features?.map((key_features, index) => (
-                      <p className="paragraph category-para">
+                      <p key={index} className="paragraph category-para">
                         <span>{key_features.type}</span>
                         {key_features.content}
                       </p>
