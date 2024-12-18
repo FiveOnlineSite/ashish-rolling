@@ -1,12 +1,18 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import ProductData from "../components/ProductData";
 
 const Brochures = () => {
   const [activeTab, setActiveTab] = useState("All");
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on route change
+  }, [location]); // Dependency on location ensures it runs whenever the route changes
 
   const allProducts = ProductData.flatMap((data) => data.products);
 

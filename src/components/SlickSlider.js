@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Slider from "react-slick";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import AOS from "aos"; // Import AOS (Animate on Scroll) library
 import "aos/dist/aos.css"; // Ensure you've imported the AOS CSS
 
@@ -12,6 +12,12 @@ const SlickSlider = ({
   showProductName,
   filterdProducts,
 }) => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on route change
+  }, [location]); // Dependency on location ensures it runs whenever the route changes
+
   // Initialize AOS animation on component mount
   useEffect(() => {
     AOS.init({
@@ -93,7 +99,7 @@ const SlickSlider = ({
                 <div className="col-lg-3 col-md-3 col-12">
                   {/* <button className="explore-button">new button</button> */}
                   <div className="home-banner-btn">
-                    <NavLink to={"/"}>
+                    <NavLink to={item.url}>
                       {/* <button
                         className="know-more-btn wow fadeIn"
                         data-aos-duration="1500"

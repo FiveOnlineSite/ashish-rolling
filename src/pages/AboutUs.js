@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Banner from "../components/Banner";
 import Layout from "../components/Layout";
 import CounterSection from "../components/CounterSection";
 import Accreditations from "../components/Accreditations";
+import { useLocation } from "react-router-dom";
 
 const AboutUs = () => {
   const bannerData = {
@@ -13,6 +14,12 @@ const AboutUs = () => {
       { label: "About us", path: null, active: true },
     ],
   };
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on route change
+  }, [location]); // Dependency on location ensures it runs whenever the route changes
 
   return (
     <Layout>

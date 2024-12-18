@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import SlickSlider from "../components/SlickSlider";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import ProductData from "../components/ProductData";
 import MapsTabs from "../components/MapsTabs";
 import ClientsData from "../components/ClientsData";
@@ -9,23 +9,33 @@ import CounterSection from "../components/CounterSection";
 import Accreditations from "../components/Accreditations";
 
 const Home = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on route change
+  }, [location]); // Dependency on location ensures it runs whenever the route changes
+
   const BannerSlider = [
     {
       // image: "/images/home-banners/banner-1.jpg",
       video: "/videos/video-banner.mp4",
       text: "We are rolling shutter manufacturer",
+      url: "/rolling-shutter/ms-rolling-shutter",
     },
     {
-      image: "/images/home-banners/banner2 (2).jpg",
+      image: "/images/banners/high speed door.jpg",
       text: "Designed for Security, Built to Last",
+      url: "/rolling-shutter/high-speed-door",
     },
     {
-      image: "/images/home-banners/banner3.png",
+      image: "/images/banners/Polycarbonate rolling shutter.png",
       text: "Engineered for Strength and Reliability",
+      url: "/rolling-shutter/polycarbonate-rolling-shutter",
     },
     {
-      image: "/images/home-banners/banner4.png",
+      image: "/images/banners/Polycarbonate sliding shutter.jpg",
       text: "Speed, safety, and seamless operations combined",
+      url: "/rolling-shutter/polycarbonate-sliding-shutter",
     },
   ];
 
@@ -33,29 +43,29 @@ const Home = () => {
     {
       image: "/images/products/motorised-gates.jpg",
       productName: "Rolling Shutter",
-      url: "/products/motorized-gates", // Add URL here
+      url: "/category/rolling-shutter", // Add URL here
     },
-    {
-      image: "/images/products/fire-rated-doors.jpg",
-      productName: "Sliding Shutter/Folding Shutter",
-      url: "/products/fire-rated-doors",
-    },
-    {
-      image: "/images/products/motorized-rolling-gates.jpg",
-      productName: "Industrial And Residential Gates",
-      url: "/products/motorized-rolling-gates",
-    },
+    // {
+    //   image: "/images/products/fire-rated-doors.jpg",
+    //   productName: "Sliding Shutter/Folding Shutter",
+    //   url: "/products/fire-rated-doors",
+    // },
+    // {
+    //   image: "/images/products/motorized-rolling-gates.jpg",
+    //   productName: "Industrial And Residential Gates",
+    //   url: "/products/motorized-rolling-gates",
+    // },
     {
       image: "/images/products/industrial-gates.jpg",
-      productName: "Raw Materials",
-      url: "/products/industrial-gates",
+      productName: "Gates",
+      url: "/category/gates",
     },
 
-    {
-      image: "/images/products/hangar-doors.jpg",
-      productName: "Rolling Shutter Operating System",
-      url: "/products/hangar-doors",
-    },
+    // {
+    //   image: "/images/products/hangar-doors.jpg",
+    //   productName: "Rolling Shutter Operating System",
+    //   url: "/products/hangar-doors",
+    // },
   ];
 
   const PrevArrow = (props) => {
@@ -284,7 +294,7 @@ const Home = () => {
                     technology and a legacy of trust.
                   </p>
 
-                  <NavLink to={"/about"}>
+                  <NavLink to={"/about-us"}>
                     {/* <button
                       className="know-more-btn wow"
                       data-aos="fade-up" // Fade in as you scroll

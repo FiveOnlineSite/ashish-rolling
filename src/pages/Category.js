@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import CategoryData from "../components/CategoryData";
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink, useParams, useLocation } from "react-router-dom";
 import SlickSlider from "../components/SlickSlider";
 
 const Category = () => {
@@ -162,28 +162,45 @@ const Category = () => {
                 </div> */}
                 <p className="paragraph category-para">{category.paragraph}</p>
 
-                <div className="custom-operations">
-                  <h4 className="category-title">Material Options:</h4>
-                  <div className="row">
-                    {category.material_options.map((material, index) => (
-                      <div className="col-6" key={index}>
-                        <p className="paragraph category-para">
-                          <span>{material.option}</span>
-                        </p>
-                      </div>
+                {category.key_features ? (
+                  <div className="key_features_div">
+                    <h4 className="category-title">Key Features:</h4>
+                    {category.key_features?.map((key_features, index) => (
+                      <p className="paragraph category-para">
+                        <span>{key_features.type}</span>
+                        {key_features.content}
+                      </p>
                     ))}
                   </div>
-                </div>
+                ) : (
+                  <>
+                    <div className="custom-operations">
+                      <h4 className="category-title">Material Options:</h4>
+                      <div className="row">
+                        {category.material_options.map((material, index) => (
+                          <div className="col-6" key={index}>
+                            <p className="paragraph category-para">
+                              <span>{material.option}</span>
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
 
-                <div className="custom-operations">
-                  <h4 className="category-title">Operation Types:</h4>
-                  {category.operation_type.map((operation, index) => (
-                    <p key={index} className="paragraph category-para">
-                      <span className="category-span"> {operation.type}</span>
-                      {operation.content}
-                    </p>
-                  ))}
-                </div>
+                    <div className="custom-operations">
+                      <h4 className="category-title">Operation Types:</h4>
+                      {category.operation_type.map((operation, index) => (
+                        <p key={index} className="paragraph category-para">
+                          <span className="category-span">
+                            {" "}
+                            {operation.type}
+                          </span>
+                          {operation.content}
+                        </p>
+                      ))}
+                    </div>
+                  </>
+                )}
               </div>
             </div>
 
@@ -191,7 +208,7 @@ const Category = () => {
               <div className="col-lg-12">
                 <div className="why-choose">
                   <h4 className="category-title">
-                    Why Choose Ashish Rolling Shutters?
+                    Why Choose {category.choose_title} ?
                   </h4>
                   <div className="row">
                     {category.choose.map((choose, index) => (
@@ -211,7 +228,9 @@ const Category = () => {
 
               <div className="col-lg-12">
                 <div className="service">
-                  <h4 className="category-title">Worldwide Service:</h4>
+                  {/* {category.service_title.map((title, index) => ( */}
+                  <h4 className="category-title">{category.service_title}</h4>
+                  {/* ))} */}
                   {category.service.map((service, index) => (
                     <p key={index} className="paragraph category-para mb-0">
                       {service.para}

@@ -147,21 +147,6 @@ const Navbar = () => {
                         </NavLink>
                       </li>
                     ))}
-
-                    {CollectionData.map((collection, index) => (
-                      <li key={index}>
-                        {collection.products.map((product, productIndex) => (
-                          <NavLink
-                            key={productIndex}
-                            className="dropdown-item"
-                            to={`/${collection.category_slug}/${product.slug}`}
-                            title={product.productName}
-                          >
-                            {product.productName}
-                          </NavLink>
-                        ))}
-                      </li>
-                    ))}
                   </ul>
                 </li>
                 <li className="nav-item">
