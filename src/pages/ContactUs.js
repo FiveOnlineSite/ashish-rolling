@@ -28,7 +28,7 @@ const ContactUs = () => {
     const mailMessage = `Hello,
 My name is ${formData.name}, and I can be reached at ${formData.email} and ${formData.phone}. I am located in ${formData.state} and work at ${formData.company}. I would like to enquire about: ${formData.message}.`;
 
-    const whatsappNumber = "+919579068536"; // Replace with your WhatsApp number
+    const whatsappNumber = "+918850366693"; // Replace with your WhatsApp number
 
     // WhatsApp link
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
