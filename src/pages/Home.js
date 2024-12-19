@@ -43,30 +43,30 @@ const Home = () => {
   const ProductsSlider = [
     {
       image: "/images/products/motorised-gates.jpg",
-      productName: "Rolling Shutter",
-      url: "/category/rolling-shutter", // Add URL here
+      productName: "M.s Rolling Shutter",
+      url: "/rolling-shutter/ms-rolling-shutter", // Add URL here
     },
-    // {
-    //   image: "/images/products/fire-rated-doors.jpg",
-    //   productName: "Sliding Shutter/Folding Shutter",
-    //   url: "/products/fire-rated-doors",
-    // },
-    // {
-    //   image: "/images/products/motorized-rolling-gates.jpg",
-    //   productName: "Industrial And Residential Gates",
-    //   url: "/products/motorized-rolling-gates",
-    // },
+    {
+      image: "/images/products/fire-rated-doors.jpg",
+      productName: "Sliding Shutter",
+      url: "/rolling-shutter/sliding-shutter",
+    },
+    {
+      image: "/images/products/motorized-rolling-gates.jpg",
+      productName: "Motorized Rolling Shutter",
+      url: "/rolling-shutter/motorized-rolling-shutter",
+    },
     {
       image: "/images/products/industrial-gates.jpg",
-      productName: "Gates",
-      url: "/category/gates",
+      productName: "Industrial Sliding Gate",
+      url: "/gates/industrial-sliding-gate",
     },
 
-    // {
-    //   image: "/images/products/hangar-doors.jpg",
-    //   productName: "Rolling Shutter Operating System",
-    //   url: "/products/hangar-doors",
-    // },
+    {
+      image: "/images/products/hangar-doors.jpg",
+      productName: "Folding Gate",
+      url: "/gates/folding-gate",
+    },
   ];
 
   const PrevArrow = (props) => {

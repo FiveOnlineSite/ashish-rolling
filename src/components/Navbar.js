@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import CategoryData from "./CategoryData";
 import CollectionData from "./CollectionData";
 
 const Navbar = () => {
@@ -135,18 +134,156 @@ const Navbar = () => {
                     Products <i className="fa-solid fa-angle-down"></i>
                   </NavLink>
 
-                  <ul className="dropdown-menu">
-                    {CategoryData.map((category, index) => (
+                  <ul className="dropdown-menu ">
+                    {/* {CollectionData.map((collection, index) => (
                       <li key={index}>
-                        <NavLink
-                          className="dropdown-item"
-                          to={`/category/${category.slug}`}
-                          title={category.category}
-                        >
-                          {category.category}
-                        </NavLink>
+                        {collection.products.map((product, productIndex) => (
+                          <NavLink
+                            key={productIndex}
+                            className="dropdown-item"
+                            to={`/${collection.category_slug}/${product.slug}`}
+                            title={product.productName}
+                          >
+                            {product.productName}
+                          </NavLink>
+                        ))}
                       </li>
-                    ))}
+                    ))} */}
+
+                    <div className="dropdown-flex">
+                      <div className="dropdown-column">
+                        <NavLink
+                          to="/rolling-shutter/ms-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          M.s Rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/galvanised-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          Galvanised rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/sliding-shutter"
+                          className="dropdown-item"
+                        >
+                          Sliding shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/aluminium-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          Aluminium rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/polycarbonate-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          Polycarbonate rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/grill-type-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          Grill type rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/slotted-strip-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          Slotted Strip rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/aluminium-rib-type-shutter"
+                          className="dropdown-item"
+                        >
+                          Aluminium rib type shutter
+                        </NavLink>
+                      </div>
+                      <div className="dropdown-column">
+                        <NavLink
+                          to="/rolling-shutter/motorized-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          Motorized rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/insulated-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          Insulated rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/perforated-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          Perforated rolling shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/aluminium-shutter-with-vision-panel"
+                          className="dropdown-item"
+                        >
+                          Aluminium shutter with vision panel
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/sliding-polycarbonate-shutter"
+                          className="dropdown-item"
+                        >
+                          Sliding polycarbonate shutter
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/high-speed-door"
+                          className="dropdown-item"
+                        >
+                          High speed door
+                        </NavLink>
+                        <NavLink
+                          to="/rolling-shutter/pvc-rolling-shutter"
+                          className="dropdown-item"
+                        >
+                          PVC rolling shutter
+                        </NavLink>
+                      </div>
+                      <div className="dropdown-column">
+                        <NavLink
+                          to="/gates/swing-gate"
+                          className="dropdown-item"
+                        >
+                          Swing gate
+                        </NavLink>
+                        <NavLink
+                          to="/gates/industrial-sliding-gate"
+                          className="dropdown-item"
+                        >
+                          Industrial sliding gate
+                        </NavLink>
+                        <NavLink
+                          to="/gates/folding-gate"
+                          className="dropdown-item"
+                        >
+                          Folding gate
+                        </NavLink>
+                        <NavLink
+                          to="/gates/telescopic-gate"
+                          className="dropdown-item"
+                        >
+                          Telescopic gate
+                        </NavLink>
+                        <NavLink
+                          to="/gates/motorised-gate"
+                          className="dropdown-item"
+                        >
+                          Motorised gate
+                        </NavLink>
+                        <NavLink
+                          to="/gates/compound-gate"
+                          className="dropdown-item"
+                        >
+                          Compound gate
+                        </NavLink>
+                      </div>
+                    </div>
                   </ul>
                 </li>
                 <li className="nav-item">
@@ -330,18 +467,6 @@ const Navbar = () => {
                       </NavLink>
 
                       <ul className="dropdown-menu ">
-                        {CategoryData.map((category, index) => (
-                          <li key={index}>
-                            <NavLink
-                              className="dropdown-item"
-                              to={`/category/${category.slug}`}
-                              title={category.category}
-                            >
-                              {category.category}
-                            </NavLink>
-                          </li>
-                        ))}
-
                         {CollectionData.map((collection, index) => (
                           <li key={index}>
                             {collection.products.map(

@@ -228,7 +228,12 @@ const Collection = () => {
         </div>
 
         <div className="container mt-4">
-          <NavLink to="/">
+          <NavLink
+            to="/doc/Ashish Rolling Shutter broacher.pdf"
+            download="Ashish Rolling Shutter Brochure.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button
               className="explore-button about-btn me-3 mb-3 wow"
               data-aos="fade-up"
