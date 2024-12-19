@@ -18,7 +18,7 @@ const Home = () => {
   const BannerSlider = [
     {
       // image: "/images/home-banners/banner-1.jpg",
-      video: "/videos/video-banner.mp4",
+      video: "/videos/IMG_2232_MOV_V1 (online-video-cutter.com) (1).mp4",
       text: "We are rolling shutter manufacturer",
       url: "/rolling-shutter/ms-rolling-shutter",
     },
