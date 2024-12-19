@@ -55,18 +55,20 @@ const SlickSlider = ({
               Your browser does not support the video tag.
             </video>
           ) : (
-            <img
-              className="slider-img wow fadeIn"
-              src={item.image || item.productImg}
-              alt={`Slider item ${index}`}
-              // data-wow-duration="1s"
-              // data-wow-delay="0.3s"
-            />
+            <>
+              <img
+                className="slider-img wow fadeIn"
+                src={item.image || item.productImg}
+                alt={`Slider item ${index}`}
+                // data-wow-duration="1s"
+                // data-wow-delay="0.3s"
+              />
+            </>
           )}
 
           {hasText && item.text && (
             <>
-              <div className="banner-overlay"></div>
+              {/* <div className="banner-overlay"></div> */}
               <div className="row banner-text-row">
                 {/* <div className="col-lg-12 banner-big-title"> */}
                 {/* <h2

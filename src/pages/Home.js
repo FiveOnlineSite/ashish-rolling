@@ -24,17 +24,17 @@ const Home = () => {
     },
 
     {
-      image: "/images/banners/tira.png",
+      image: "/images/banners/tira 1.png",
       text: "Engineered for Strength and Reliability",
       url: "/rolling-shutter/polycarbonate-rolling-shutter",
     },
     {
-      image: "/images/banners/Mask group (2).png",
+      image: "/images/banners/nyka 1.png",
       text: "Speed, safety, and seamless operations combined",
       url: "/rolling-shutter/polycarbonate-sliding-shutter",
     },
     {
-      image: "/images/banners/high-speed.png",
+      image: "/images/banners/high-speed 1.png",
       text: "Designed for Security, Built to Last",
       url: "/rolling-shutter/high-speed-door",
     },
