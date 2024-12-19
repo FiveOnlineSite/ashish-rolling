@@ -2653,7 +2653,7 @@ const CollectionData = [
   {
     category: "Gate",
 
-    category_slug: "gate",
+    category_slug: "gates",
 
     products: [
       {
@@ -3186,7 +3186,7 @@ const CollectionData = [
     products: [
       {
         productName: "Telescopic gate",
-        slug: "telescopic gate",
+        slug: "telescopic-gate",
         paragraph:
           "Telescopic gates are the ideal solution for locations requiring wide openings but have limited space for gate storage. Designed to operate with multiple gate panels, these gates reduce the need for a large back run and allow for a much wider access area than conventional sliding gates. Perfect for spaces where structural conditions restrict the use of traditional gates, telescopic sliding gates provide both space efficiency and exceptional performance.",
 

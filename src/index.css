@@ -1277,7 +1277,7 @@ body {
 
 .banner-content {
   position: absolute;
-  top: 70%;
+  bottom: 10%;
   padding: 0 100px;
   width: 100%;
   display: flex;
@@ -1726,12 +1726,29 @@ body {
 
 .dropdown-flex {
   display: flex;
-  gap: 2rem; /* Adjust spacing between columns */
+}
+
+.dropdown-group {
+  display: block;
+}
+
+.dropdown-columns {
+  display: flex; /* Arrange the columns horizontally */
+  gap: 1rem; /* Add space between columns */
+}
+
+.dropdown-column1 {
+  flex: 1; /* Allow columns to expand equally */
 }
 
 .dropdown-column {
-  flex: 1; /* Distributes columns evenly */
-  max-width: 33%; /* Ensures three columns */
+  flex: 1; /* Allow columns to expand equally */
+}
+
+.dropdown-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333; /* Adjust as needed */
 }
 
 @keyframes pulse {
@@ -1895,6 +1912,18 @@ body {
   background-image: url("../public/images/download\ 1.png");
 }
 
+.accordion-item {
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(250, 182, 182, 0.336);
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
 @media screen and (max-width: 991px) {
   .desktop-navbar,
   .top-bar-div {
@@ -1912,6 +1941,10 @@ body {
 
   .mobile-navbar {
     padding-top: 130px;
+  }
+
+  .desktop-navbar .nav-item.dropdown .dropdown-menu {
+    display: block;
   }
 
   .topbar {

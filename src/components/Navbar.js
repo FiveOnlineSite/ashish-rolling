@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import CollectionData from "./CollectionData";
 
 const Navbar = () => {
   useEffect(() => {
@@ -10,6 +9,12 @@ const Navbar = () => {
 
     document.addEventListener("hidden.bs.offcanvas", handleOffcanvasHidden);
 
+    // Disable closing of dropdown when clicking inside the dropdown
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+    dropdownMenu.addEventListener("click", function (e) {
+      e.stopPropagation();
+    });
+
     return () => {
       document.removeEventListener(
         "hidden.bs.offcanvas",
@@ -17,6 +22,12 @@ const Navbar = () => {
       );
     };
   }, []);
+
+  // Disable closing of dropdown when clicking inside the dropdown
+  // const dropdownMenu = document.querySelector(".dropdown-menu");
+  // dropdownMenu.addEventListener("click", function (e) {
+  //   e.stopPropagation();
+  // });
 
   return (
     <div>
@@ -151,137 +162,149 @@ const Navbar = () => {
                     ))} */}
 
                     <div className="dropdown-flex">
-                      <div className="dropdown-column">
-                        <NavLink
-                          to="/rolling-shutter/ms-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          M.s Rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/galvanised-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          Galvanised rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/sliding-shutter"
-                          className="dropdown-item"
-                        >
-                          Sliding shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/aluminium-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          Aluminium rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/polycarbonate-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          Polycarbonate rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/grill-type-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          Grill type rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/slotted-strip-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          Slotted Strip rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/aluminium-rib-type-shutter"
-                          className="dropdown-item"
-                        >
-                          Aluminium rib type shutter
-                        </NavLink>
+                      {/* Group 1 with two columns side by side */}
+                      <div className="dropdown-group">
+                        <h5 className="dropdown-title">Rolling Shutters</h5>
+                        <div className="dropdown-columns">
+                          <div className="dropdown-column1">
+                            <NavLink
+                              to="/rolling-shutter/ms-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              M.s Rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/galvanised-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              Galvanised rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/sliding-shutter"
+                              className="dropdown-item"
+                            >
+                              Sliding shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/aluminium-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              Aluminium rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/polycarbonate-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              Polycarbonate rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/grill-type-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              Grill type rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/slotted-strip-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              Slotted Strip rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/aluminium-rib-type-shutter"
+                              className="dropdown-item"
+                            >
+                              Aluminium rib type shutter
+                            </NavLink>
+                          </div>
+
+                          <div className="dropdown-column1">
+                            <NavLink
+                              to="/rolling-shutter/motorized-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              Motorized rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/insulated-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              Insulated rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/perforated-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              Perforated rolling shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/aluminium-shutters-with-vision-panel"
+                              className="dropdown-item"
+                            >
+                              Aluminium shutter with vision panel
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/sliding-polycarbonate-shutter"
+                              className="dropdown-item"
+                            >
+                              Sliding polycarbonate shutter
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/high-speed-door"
+                              className="dropdown-item"
+                            >
+                              High speed door
+                            </NavLink>
+                            <NavLink
+                              to="/rolling-shutter/pvc-rolling-shutter"
+                              className="dropdown-item"
+                            >
+                              PVC rolling shutter
+                            </NavLink>
+                          </div>
+                        </div>
                       </div>
-                      <div className="dropdown-column">
-                        <NavLink
-                          to="/rolling-shutter/motorized-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          Motorized rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/insulated-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          Insulated rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/perforated-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          Perforated rolling shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/aluminium-shutter-with-vision-panel"
-                          className="dropdown-item"
-                        >
-                          Aluminium shutter with vision panel
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/sliding-polycarbonate-shutter"
-                          className="dropdown-item"
-                        >
-                          Sliding polycarbonate shutter
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/high-speed-door"
-                          className="dropdown-item"
-                        >
-                          High speed door
-                        </NavLink>
-                        <NavLink
-                          to="/rolling-shutter/pvc-rolling-shutter"
-                          className="dropdown-item"
-                        >
-                          PVC rolling shutter
-                        </NavLink>
-                      </div>
-                      <div className="dropdown-column">
-                        <NavLink
-                          to="/gates/swing-gate"
-                          className="dropdown-item"
-                        >
-                          Swing gate
-                        </NavLink>
-                        <NavLink
-                          to="/gates/industrial-sliding-gate"
-                          className="dropdown-item"
-                        >
-                          Industrial sliding gate
-                        </NavLink>
-                        <NavLink
-                          to="/gates/folding-gate"
-                          className="dropdown-item"
-                        >
-                          Folding gate
-                        </NavLink>
-                        <NavLink
-                          to="/gates/telescopic-gate"
-                          className="dropdown-item"
-                        >
-                          Telescopic gate
-                        </NavLink>
-                        <NavLink
-                          to="/gates/motorised-gate"
-                          className="dropdown-item"
-                        >
-                          Motorised gate
-                        </NavLink>
-                        <NavLink
-                          to="/gates/compound-gate"
-                          className="dropdown-item"
-                        >
-                          Compound gate
-                        </NavLink>
+
+                      {/* Group 2 with one column */}
+                      <div className="dropdown-group">
+                        <h5 className="dropdown-title">Gates</h5>
+                        <div className="dropdown-column">
+                          <NavLink
+                            to="/gates/swing-gate"
+                            className="dropdown-item"
+                          >
+                            Swing gate
+                          </NavLink>
+                          <NavLink
+                            to="/gates/industrial-sliding-gate"
+                            className="dropdown-item"
+                          >
+                            Industrial sliding gate
+                          </NavLink>
+                          <NavLink
+                            to="/gates/folding-gate"
+                            className="dropdown-item"
+                          >
+                            Folding gate
+                          </NavLink>
+                          <NavLink
+                            to="/gates/telescopic-gate"
+                            className="dropdown-item"
+                          >
+                            Telescopic gate
+                          </NavLink>
+                          <NavLink
+                            to="/gates/motorised-gate"
+                            className="dropdown-item"
+                          >
+                            Motorised gate
+                          </NavLink>
+                          <NavLink
+                            to="/gates/compound-gate"
+                            className="dropdown-item"
+                          >
+                            Compound gate
+                          </NavLink>
+                        </div>
                       </div>
                     </div>
                   </ul>
@@ -466,23 +489,183 @@ const Navbar = () => {
                         Products <i className="fa-solid fa-angle-down"></i>
                       </NavLink>
 
-                      <ul className="dropdown-menu ">
-                        {CollectionData.map((collection, index) => (
-                          <li key={index}>
-                            {collection.products.map(
-                              (product, productIndex) => (
+                      <ul
+                        className="dropdown-menu "
+                        onClick={(e) => e.stopPropagation()}
+                        data-bs-auto-close="false"
+                      >
+                        <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne"
+                              >
+                                Rolling Shutter
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseOne"
+                              class="accordion-collapse collapse show"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body">
                                 <NavLink
-                                  key={productIndex}
+                                  to="/rolling-shutter/ms-rolling-shutter"
                                   className="dropdown-item"
-                                  to={`/${collection.category_slug}/${product.slug}`}
-                                  title={product.productName}
                                 >
-                                  {product.productName}
+                                  M.s Rolling shutter
                                 </NavLink>
-                              )
-                            )}
-                          </li>
-                        ))}
+                                <NavLink
+                                  to="/rolling-shutter/galvanised-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Galvanised rolling shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/sliding-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Sliding shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/aluminium-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Aluminium rolling shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/polycarbonate-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Polycarbonate rolling shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/grill-type-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Grill type rolling shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/slotted-strip-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Slotted Strip rolling shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/aluminium-rib-type-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Aluminium rib type shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/motorized-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Motorized rolling shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/insulated-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Insulated rolling shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/perforated-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Perforated rolling shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/aluminium-shutters-with-vision-panel"
+                                  className="dropdown-item"
+                                >
+                                  Aluminium shutter with vision panel
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/sliding-polycarbonate-shutter"
+                                  className="dropdown-item"
+                                >
+                                  Sliding polycarbonate shutter
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/high-speed-door"
+                                  className="dropdown-item"
+                                >
+                                  High speed door
+                                </NavLink>
+                                <NavLink
+                                  to="/rolling-shutter/pvc-rolling-shutter"
+                                  className="dropdown-item"
+                                >
+                                  PVC rolling shutter
+                                </NavLink>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo"
+                              >
+                                Gates
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseTwo"
+                              class="accordion-collapse collapse"
+                              data-bs-parent="#accordionExample"
+                            >
+                              <div class="accordion-body">
+                                <NavLink
+                                  to="/gates/swing-gate"
+                                  className="dropdown-item"
+                                >
+                                  Swing gate
+                                </NavLink>
+                                <NavLink
+                                  to="/gates/industrial-sliding-gate"
+                                  className="dropdown-item"
+                                >
+                                  Industrial sliding gate
+                                </NavLink>
+                                <NavLink
+                                  to="/gates/folding-gate"
+                                  className="dropdown-item"
+                                >
+                                  Folding gate
+                                </NavLink>
+                                <NavLink
+                                  to="/gates/telescopic-gate"
+                                  className="dropdown-item"
+                                >
+                                  Telescopic gate
+                                </NavLink>
+                                <NavLink
+                                  to="/gates/motorised-gate"
+                                  className="dropdown-item"
+                                >
+                                  Motorised gate
+                                </NavLink>
+                                <NavLink
+                                  to="/gates/compound-gate"
+                                  className="dropdown-item"
+                                >
+                                  Compound gate
+                                </NavLink>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </ul>
                     </li>
                     <li className="nav-item">
