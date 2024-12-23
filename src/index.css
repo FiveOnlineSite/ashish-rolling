@@ -1749,6 +1749,7 @@ body {
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #333; /* Adjust as needed */
+  padding-left: 10px;
 }
 
 @keyframes pulse {
