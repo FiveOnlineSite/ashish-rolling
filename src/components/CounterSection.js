@@ -56,7 +56,7 @@ const CounterSection = ({ bgImage }) => {
                         </div>
                         <div className="counter-div-text">
                           <div className="counter-nos">
-                            <Counter target={28} />
+                            <Counter target={40} />
                             <span className="counter-span">+</span>
                           </div>
                           <div className="counter-text">
@@ -83,7 +83,7 @@ const CounterSection = ({ bgImage }) => {
                         </div>
                         <div className="counter-div-text">
                           <div className="counter-nos">
-                            <Counter target={26} />
+                            <Counter target={50} />
                             <span className="counter-span">+</span>
                           </div>
                           <div className="counter-text">
@@ -110,7 +110,7 @@ const CounterSection = ({ bgImage }) => {
                         </div>
                         <div className="counter-div-text">
                           <div className="counter-nos">
-                            <Counter target={70} />
+                            <Counter target={7} />
                             <span className="counter-span">+</span>
                           </div>
                           <div className="counter-text">
@@ -129,7 +129,7 @@ const CounterSection = ({ bgImage }) => {
                       >
                         <div className="counter-icon">
                           <img
-                            src="/images/graph 1.png"
+                            src="/images/corporate-building.png"
                             width={"50px"}
                             height={"50px"}
                             alt="graph"
@@ -137,12 +137,12 @@ const CounterSection = ({ bgImage }) => {
                         </div>
                         <div className="counter-div-text">
                           <div className="counter-nos">
-                            <Counter target={70} />
-                            <span className="counter-span">%</span>
+                            <Counter target={150} />
+                            <span className="counter-span">+</span>
                           </div>
                           <div className="counter-text">
                             {/* <img src="/images/graph.png" alt="review" /> */}
-                            <h6>Market share</h6>
+                            <h6>Companies worked with</h6>
                           </div>
                         </div>
                       </div>

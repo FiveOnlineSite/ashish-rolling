@@ -8,7 +8,7 @@ const CollectionData = [
         slug: "ms-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutters offers M.S. Rolling Shutters designed for unmatched durability and protection. Made from high-strength materials, these shutters act as a shield against burglary, vandalism, and harsh weather conditions.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url: "/images/commitment-to-care.png",
@@ -180,6 +180,7 @@ const CollectionData = [
         slug: "galvanised-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutter offers an unbeatable combination of strength, security, and durability with its Galvanised Rolling Shutters. Designed for heavy-duty industrial use, our shutters are crafted from high-quality galvanized steel sourced from trusted suppliers like TATA and Jindal. With minimal maintenance required, our shutters provide long-lasting protection for a variety of applications, ensuring peace of mind in even the toughest conditions.",
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -355,6 +356,7 @@ const CollectionData = [
         slug: "sliding-shutter",
         paragraph:
           "Ashish Rolling Shutter offers premium Sliding Shutters designed to provide robust security, smooth operation, and long-lasting durability. Engineered with precision and crafted using high-quality materials, our sliding shutters are ideal for industrial and commercial premises that require space-saving solutions with maximum protection.",
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -530,7 +532,7 @@ const CollectionData = [
         slug: "aluminium-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutter offers premium Aluminium Rolling Shutters designed to deliver a perfect combination of durability, lightweight construction, and modern aesthetics. Ideal for commercial, industrial, and residential applications, these shutters provide superior protection, energy efficiency, and a sleek, contemporary look.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -706,7 +708,7 @@ const CollectionData = [
         slug: "polycarbonate-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutter brings you advanced Polycarbonate Rolling Shutters that combine exceptional durability with elegant transparency. Designed for commercial spaces, storefronts, and modern architectural applications, these shutters ensure security while maintaining clear visibility, making them a perfect blend of style and function.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -891,7 +893,7 @@ const CollectionData = [
         slug: "grill-type-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutter brings you Grill Type Rolling Shutters that seamlessly blend security, visibility, and ventilation. Perfect for commercial, residential, and industrial spaces, these shutters offer reliable protection against theft and vandalism while complementing modern architectural aesthetics.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -1067,7 +1069,7 @@ const CollectionData = [
         slug: "slotted-strip-rolling-shutters",
         paragraph:
           "Ashish Rolling Shutters introduces Slotted Strip Rolling Shutters, offering the perfect blend of security, ventilation, and aesthetics. Designed for commercial, industrial, and residential spaces, these shutters ensure airflow, partial visibility, and robust protection while enhancing modern architecture.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -1253,7 +1255,7 @@ const CollectionData = [
         slug: "aluminium-rib-type-shutter",
         paragraph:
           "Aluminium Rib Type Shutters offer the perfect combination of durability, style, and security. Designed for both commercial and industrial applications, these shutters are engineered to provide superior protection while maintaining an aesthetically pleasing appearance. Ideal for retail shops, warehouses, garages, and industrial facilities, aluminium rib type shutters are known for their robust structure and lightweight design.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -1429,7 +1431,7 @@ const CollectionData = [
         slug: "motorized-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutters offers cutting-edge Motorized Rolling Shutters designed to combine unmatched durability with effortless operation. Perfect for industrial, commercial, and residential applications, our shutters deliver superior security and are built to withstand harsh environmental conditions.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -1605,7 +1607,7 @@ const CollectionData = [
         slug: "insulated-rolling-shutter",
         paragraph:
           "Insulated Rolling Shutters are the ideal solution for maintaining a controlled environment while ensuring superior security and durability. Designed to minimize energy loss and withstand extreme weather conditions, these shutters seamlessly combine functionality with aesthetics, making them perfect for warehouses, loading bays, factories, and industrial facilities.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -1781,7 +1783,7 @@ const CollectionData = [
         slug: "perforated-rolling-shutter",
         paragraph:
           "Perforated Rolling Shutters offer the perfect combination of security, ventilation, and visibility. Designed for commercial, retail, and industrial spaces, these shutters allow airflow and light penetration while providing robust protection against unauthorized access. Their unique design integrates seamlessly with modern architecture, making them ideal for storefronts, showrooms, parking garages, and industrial units.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -1957,7 +1959,7 @@ const CollectionData = [
         slug: "aluminium-shutters-with-vision-panel",
         paragraph:
           "Aluminium Shutters with Vision Panels are the perfect solution for spaces requiring high security, durability, and partial visibility. Designed Aluminium shutter with vision panelwith integrated vision panels, these shutters combine the strength of robust aluminum construction with clear panels for visibility, making them ideal for commercial, retail, and industrial applications. Whether it’s for storefronts, warehouses, or secure areas, these shutters provide functionality without compromising on style.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -2133,7 +2135,7 @@ const CollectionData = [
         slug: "sliding-polycarbonate-shutter",
         paragraph:
           "Sliding Polycarbonate Shutters are the perfect combination of robust security, clear transparency, and modern aesthetics. These shutters are ideal for commercial establishments, retail storefronts, and areas requiring visibility without compromising on protection. Engineered with high-quality polycarbonate panels and a sliding mechanism, they provide a smooth and practical access solution while enhancing the overall appeal of any space.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -2309,7 +2311,7 @@ const CollectionData = [
         slug: "high-speed-door",
         paragraph:
           "High-speed doors provide rapid access between internal and external areas of buildings, enhancing both security and efficiency in high-traffic zones. These automatic doors are engineered to open quickly, allowing for faster movement of materials, personnel, and goods, which significantly accelerates the logistics and workflow process. With their advanced design, high-speed doors are perfect for environments that require frequent access while maintaining controlled conditions, such as temperature, hygiene, and dust levels.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -2485,7 +2487,7 @@ const CollectionData = [
         slug: "pvc-rolling-shutter",
         paragraph:
           "PVC Rolling Shutters offer an excellent solution for protecting commercial and residential spaces with the added benefit of being lightweight yet highly durable. These shutters provide both security and aesthetics, making them ideal for storefronts, warehouses, garages, and more. Made from high-quality PVC material, they are resistant to corrosion, weather, and wear, ensuring long-lasting performance in various environmental conditions. The ease of operation, low maintenance needs, and customizable features make PVC Rolling Shutters a popular choice for enhancing security without compromising on style.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -2661,7 +2663,7 @@ const CollectionData = [
         slug: "swing-gate",
         paragraph:
           "Motorized swing gates offer a blend of functionality, aesthetic appeal, and robust security. Ideal for residential, commercial, or industrial properties, these gates provide easy access and enhanced protection. With customizable designs and advanced automation features, they cater to diverse needs while ensuring long-lasting performance. Whether you need a swing gate for a driveway or an entryway, our gates are tailored to suit your specific requirements.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -2837,7 +2839,7 @@ const CollectionData = [
         slug: "industrial-sliding-gate",
         paragraph:
           "Industrial sliding gates are designed to provide optimal security and ease of access for large commercial or industrial properties. Built for durability and functionality, these gates are perfect for high-traffic areas and offer seamless integration with existing infrastructure. Whether for warehouses, factories, or large estates, our industrial sliding gates are the ideal solution for both protection and accessibility.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -3013,7 +3015,7 @@ const CollectionData = [
         slug: "folding-gate",
         paragraph:
           "Folding gates are the perfect combination of functionality, security, and style, ideal for both industrial and corporate premises. Designed to handle space constraints while ensuring the highest level of security, these gates provide a sleek and professional appearance while being practical for daily use. Whether you need to partition an area or create a grand entrance, folding gates offer the perfect balance of utility and aesthetic appeal.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -3189,7 +3191,7 @@ const CollectionData = [
         slug: "telescopic-gate",
         paragraph:
           "Telescopic gates are the ideal solution for locations requiring wide openings but have limited space for gate storage. Designed to operate with multiple gate panels, these gates reduce the need for a large back run and allow for a much wider access area than conventional sliding gates. Perfect for spaces where structural conditions restrict the use of traditional gates, telescopic sliding gates provide both space efficiency and exceptional performance.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -3365,7 +3367,7 @@ const CollectionData = [
         slug: "motorised-gate",
         paragraph:
           "Motorised gates offer the perfect blend of security, convenience, and advanced automation for both residential and industrial properties. Designed to provide seamless and safe access, these gates are manufactured with high-quality materials and cutting-edge technology, ensuring long-lasting performance and reliability. Motorised swing gates are ideal for properties that require secure entry points with minimal manual intervention.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -3541,7 +3543,7 @@ const CollectionData = [
         slug: "compound-gate",
         paragraph:
           "Compound gates are essential for properties that require a high level of security and robust access control. These gates are designed to provide a secure barrier while maintaining aesthetic appeal. Whether for residential compounds or industrial facilities, compound gates offer a blend of strength, functionality, and design versatility.",
-
+        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
         image: [
           {
             image_url:

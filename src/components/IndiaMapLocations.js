@@ -1,17 +1,146 @@
 const IndiaMapLocations = [
   {
-    name: "Ahmedabad",
+    name: "Himachal Pradesh",
     tel: "+9193423424",
-    position: { left: "16%", top: "45%" },
+    position: { left: "33%", top: "18%" },
   },
   {
-    name: "Chandigarh",
+    name: "Punjab",
     tel: "+9193423424",
-    position: { left: "28%", top: "21%" },
+    position: { left: "27%", top: "21%" },
   },
-  { name: "Mumbai", tel: "+9193423424", position: { left: "17%", top: "60%" } },
+  {
+    name: "Haryana",
+    tel: "+9193423424",
+    position: { left: "27%", top: "29%" },
+  },
+  { name: "Delhi", tel: "+9193423424", position: { left: "31%", top: "30%" } },
+  {
+    name: "Uttarakhand",
+    tel: "+9193423424",
+    position: { left: "40%", top: "25%" },
+  },
+  {
+    name: "Rajasthan",
+    tel: "+9193423424",
+    position: { left: "16%", top: "35%" },
+  },
+  {
+    name: "Uttar Pradesh",
+    tel: "+9193423424",
+    position: { left: "42%", top: "35%" },
+  },
+  {
+    name: "Bihar",
+    tel: "+9193423424",
+    position: { left: "59%", top: "38%" },
+  },
+  {
+    name: "Sikkim",
+    tel: "+9193423424",
+    position: { left: "70%", top: "33%" },
+  },
+  {
+    name: "Assam",
+    tel: "+9193423424",
+    position: { left: "86%", top: "36%" },
+  },
+  {
+    name: "Meghalaya",
+    tel: "+9193423424",
+    position: { left: "80%", top: "39%" },
+  },
+  {
+    name: "Arunachal Pradesh",
+    tel: "+9193423424",
+    position: { left: "90%", top: "28%" },
+  },
+  {
+    name: "Nagaland",
+    tel: "+9193423424",
+    position: { left: "91%", top: "36%" },
+  },
+  {
+    name: "Manipur",
+    tel: "+9193423424",
+    position: { left: "89%", top: "40%" },
+  },
+  {
+    name: "Mizoram",
+    tel: "+9193423424",
+    position: { left: "86%", top: "45%" },
+  },
+  {
+    name: "Tripura",
+    tel: "+9193423424",
+    position: { left: "82%", top: "45%" },
+  },
 
-  { name: "Delhi", tel: "+9193423424", position: { left: "29%", top: "29%" } },
+  {
+    name: "Uttar Pradesh",
+    tel: "+9193423424",
+    position: { left: "42%", top: "35%" },
+  },
+  {
+    name: "Gujrat",
+    tel: "+9193423424",
+    position: { left: "16%", top: "48%" },
+  },
+  {
+    name: "Madhya Pradesh",
+    tel: "+9193423424",
+    position: { left: "33%", top: "45%" },
+  },
+  {
+    name: "Jharkhand",
+    tel: "+9193423424",
+    position: { left: "59%", top: "47%" },
+  },
+  {
+    name: "West Bengal",
+    tel: "+9193423424",
+    position: { left: "70%", top: "45%" },
+  },
+  {
+    name: "Maharashtra",
+    tel: "+9193423424",
+    position: { left: "27%", top: "60%" },
+  },
+  {
+    name: "Chhattisgarh",
+    tel: "+9193423424",
+    position: { left: "48%", top: "55%" },
+  },
+  {
+    name: "Orissa",
+    tel: "+9193423424",
+    position: { left: "57%", top: "57%" },
+  },
+  {
+    name: "Goa",
+    tel: "+9193423424",
+    position: { left: "20%", top: "74%" },
+  },
+  {
+    name: "Karnataka",
+    tel: "+9193423424",
+    position: { left: "25%", top: "78%" },
+  },
+  {
+    name: "Andhra Pradesh",
+    tel: "+9193423424",
+    position: { left: "43%", top: "70%" },
+  },
+  {
+    name: "Kerala",
+    tel: "+9193423424",
+    position: { left: "28%", top: "89%" },
+  },
+  {
+    name: "Tamil Nadu",
+    tel: "+9193423424",
+    position: { left: "37%", top: "89%" },
+  },
 ];
 
 export default IndiaMapLocations;

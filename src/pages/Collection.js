@@ -37,7 +37,7 @@ const Collection = () => {
 
   // Banner data configuration
   const bannerData = {
-    bannerImg: "/images/banners/about-us-banner.jpg", // Example banner image
+    bannerImg: products[0].bannerImg, // Example banner image
     title: products[0].productName,
     breadcrumbs: [
       {

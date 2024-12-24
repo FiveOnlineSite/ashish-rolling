@@ -26,11 +26,11 @@ const MapsTabs = () => {
                 <span>
                   <img src="/images/small-logo.png" alt="logo" />
                 </span>
-                <span>Nationwide & Beyond</span>{" "}
+                <span>Nationwide & Beyond</span>
                 <span>
                   <img src="/images/small-logo.png" alt="logo" />
                 </span>
-              </h5>{" "}
+              </h5>
             </h5>
             <h2
               className="title featured-title"

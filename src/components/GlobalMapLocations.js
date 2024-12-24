@@ -1,14 +1,13 @@
 const GlobalMapLocations = [
   {
-    name: "India",
-    position: { left: "65%", top: "41%" },
+    name: "Ethiopia ",
+    position: { left: "55%", top: "52%" },
   },
   {
-    name: "Russia",
-    position: { left: "68%", top: "14%" },
+    name: "Ghana",
+    position: { left: "42%", top: "52%" },
   },
-  { name: "Libya", position: { left: "48%", top: "38%" } },
-  { name: "Brazil", position: { left: "29%", top: "64%" } },
+  { name: "Maldives", position: { left: "65.5%", top: "55%" } },
 ];
 
 export default GlobalMapLocations;

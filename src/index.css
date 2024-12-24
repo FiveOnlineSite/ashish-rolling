@@ -121,7 +121,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px;
   min-width: 250px;
-  left: -200%;
+  right: -200%;
   top: 100%;
 }
 
@@ -162,7 +162,8 @@ body {
   padding: 10px 0;
 }
 
-.offcanvas-body .navbar-nav .nav-item a {
+.offcanvas-body .navbar-nav .nav-item a,
+.accordion-button:not(.collapsed):first-child {
   color: var(--black-font);
   text-decoration: none;
   padding: 10px;
@@ -1917,10 +1918,19 @@ body {
   border: none;
 }
 
-.accordion-button:not(.collapsed) {
-  background-color: rgba(250, 182, 182, 0.336);
+.accordion-button:not(.collapsed):first-child {
+  background-color: transparent;
+  border-bottom: none;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: rgba(250, 182, 182, 0.336);
+  box-shadow: none;
+}
+
+.accordion-body {
+  padding: 5px;
+}
 .accordion-button:focus {
   box-shadow: none;
 }
@@ -2263,7 +2273,7 @@ body {
 
 @media screen and (max-width: 413px) {
   .single-map-container.india-map img {
-    height: 404px;
+    height: 418px;
   }
 
   .home-banner .home-banner-text h1 {

@@ -53,23 +53,35 @@ const Footer = () => {
                     <div className="social-links">
                       <ul>
                         <li>
-                          <NavLink to="/">
+                          <NavLink
+                            to="https://www.facebook.com/ashishrollingshutter/"
+                            target="_blank"
+                          >
                             <i class="fa-brands fa-facebook-f"></i>
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink to="/">
+                          <NavLink
+                            to="https://www.instagram.com/ashish_rolling_shutter/"
+                            target="_blank"
+                          >
                             <i class="fa-brands fa-instagram"></i>
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink to="/">
+                          <NavLink
+                            to="https://www.linkedin.com/company/ashish-rolling-shutters"
+                            target="_blank"
+                          >
                             <i class="fa-brands fa-linkedin-in"></i>
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink to="/">
-                            <i class="fa-brands fa-youtube"></i>
+                          <NavLink
+                            to="https://x.com//AshishShutter"
+                            target="_blank"
+                          >
+                            <i class="fa-brands fa-twitter"></i>
                           </NavLink>
                         </li>
                       </ul>
@@ -96,9 +108,9 @@ const Footer = () => {
                         <li>
                           <NavLink to="/about-us">About Us</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                           <NavLink to="/brochures">Brochures</NavLink>
-                        </li>
+                        </li> */}
                         <li>
                           <NavLink to="/support">Support</NavLink>
                         </li>
