@@ -27,11 +27,11 @@ const Banner = ({ bannerImg, title, breadcrumbs }) => {
                     data-aos-duration="1500"
                   >
                     <nav aria-label="breadcrumb">
-                      <ol class="breadcrumb">
+                      <ol className="breadcrumb">
                         {breadcrumbs.map((breadcrumb, index) => (
                           <li
                             key={index}
-                            class={`breadcrumb-item ${
+                            className={`breadcrumb-item ${
                               breadcrumb.active ? "active" : ""
                             }`}
                             aria-current={

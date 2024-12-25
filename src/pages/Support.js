@@ -166,7 +166,7 @@ const Support = () => {
 
                       <NavLink to="tel:+918850366693">
                         <div className="map-location-detail">
-                          <i class="fa-solid fa-phone"></i>
+                          <i className="fa-solid fa-phone"></i>
                           <p>+918850366693</p>
                         </div>
                       </NavLink>
@@ -190,7 +190,7 @@ const Support = () => {
                       </h5>
                       <NavLink to="mailto:ashishrollingshutter@gmail.com">
                         <div className="map-location-detail">
-                          <i class="fa-solid fa-envelope"></i>
+                          <i className="fa-solid fa-envelope"></i>
                           <p>ashishrollingshutter@gmail.com</p>
                         </div>
                       </NavLink>

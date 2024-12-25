@@ -499,11 +499,11 @@ const Navbar = () => {
                       </NavLink>
                     </li>
                     <li className="nav-item dropdown">
-                      <div class="accordion" id="accordionExample1">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
+                      <div className="accordion" id="accordionExample1">
+                        <div className="accordion-item">
+                          <h2 className="accordion-header">
                             <button
-                              class="accordion-button"
+                              className="accordion-button"
                               type="button"
                               data-bs-toggle="collapse"
                               data-bs-target="#products"
@@ -515,20 +515,20 @@ const Navbar = () => {
                           </h2>
                           <div
                             id="products"
-                            class="accordion-collapse collapse show"
+                            className="accordion-collapse collapse show"
                             data-bs-parent="#accordionExample1"
                           >
-                            <div class="accordion-body">
+                            <div className="accordion-body">
                               {/* <ul
                                 className="dropdown-menu "
                                 onClick={(e) => e.stopPropagation()}
                                 data-bs-auto-close="false"
                               > */}
-                              <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header">
+                              <div className="accordion" id="accordionExample">
+                                <div className="accordion-item">
+                                  <h2 className="accordion-header">
                                     <button
-                                      class="accordion-button collapsed"
+                                      className="accordion-button collapsed"
                                       type="button"
                                       data-bs-toggle="collapse"
                                       data-bs-target="#collapseOne"
@@ -540,10 +540,10 @@ const Navbar = () => {
                                   </h2>
                                   <div
                                     id="collapseOne"
-                                    class="accordion-collapse collapse"
+                                    className="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample"
                                   >
-                                    <div class="accordion-body">
+                                    <div className="accordion-body">
                                       <NavLink
                                         to="/rolling-shutter/ms-rolling-shutter"
                                         className="dropdown-item"
@@ -637,10 +637,10 @@ const Navbar = () => {
                                     </div>
                                   </div>
                                 </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header">
+                                <div className="accordion-item">
+                                  <h2 className="accordion-header">
                                     <button
-                                      class="accordion-button collapsed"
+                                      className="accordion-button collapsed"
                                       type="button"
                                       data-bs-toggle="collapse"
                                       data-bs-target="#collapseTwo"
@@ -652,10 +652,10 @@ const Navbar = () => {
                                   </h2>
                                   <div
                                     id="collapseTwo"
-                                    class="accordion-collapse collapse"
+                                    className="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample"
                                   >
-                                    <div class="accordion-body">
+                                    <div className="accordion-body">
                                       <NavLink
                                         to="/gates/swing-gate"
                                         className="dropdown-item"

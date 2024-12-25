@@ -99,20 +99,20 @@ const MapsTabs = () => {
                     <h3>India</h3>
 
                     <div className="map-location-detail">
-                      <i class="fa-solid fa-location-dot"></i>
+                      <i className="fa-solid fa-location-dot"></i>
                       <p>Ashish Rolling Shutter</p>
                     </div>
 
                     <NavLink to="tel:+918850366693">
                       <div className="map-location-detail">
-                        <i class="fa-solid fa-phone"></i>
+                        <i className="fa-solid fa-phone"></i>
                         <p>+918850366693</p>
                       </div>
                     </NavLink>
 
                     <NavLink to="mailto:ashishrollingshutter@gmail.com">
                       <div className="map-location-detail">
-                        <i class="fa-solid fa-envelope"></i>
+                        <i className="fa-solid fa-envelope"></i>
                         <p>ashishrollingshutter@gmail.com</p>
                       </div>
                     </NavLink>
@@ -164,20 +164,20 @@ const MapsTabs = () => {
                     <h3>Global</h3>
 
                     <div className="map-location-detail">
-                      <i class="fa-solid fa-location-dot"></i>
+                      <i className="fa-solid fa-location-dot"></i>
                       <p>Ashish Rolling Shutter</p>
                     </div>
 
                     <NavLink to="tel:+918850366693">
                       <div className="map-location-detail">
-                        <i class="fa-solid fa-phone"></i>
+                        <i className="fa-solid fa-phone"></i>
                         <p>+918850366693</p>
                       </div>
                     </NavLink>
 
                     <NavLink to="mailto:ashishrollingshutter@gmail.com">
                       <div className="map-location-detail">
-                        <i class="fa-solid fa-envelope"></i>
+                        <i className="fa-solid fa-envelope"></i>
                         <p>ashishrollingshutter@gmail.com</p>
                       </div>
                     </NavLink>

@@ -80,20 +80,20 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                         <h3>India</h3>
 
                         <div className="map-location-detail">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <p>Ashish Rolling Shutter</p>
                         </div>
 
                         <NavLink to="tel:+918850366693">
                           <div className="map-location-detail">
-                            <i class="fa-solid fa-phone"></i>
+                            <i className="fa-solid fa-phone"></i>
                             <p>+918850366693</p>
                           </div>
                         </NavLink>
 
                         <NavLink to="mailto:ashishrollingshutter@gmail.com">
                           <div className="map-location-detail">
-                            <i class="fa-solid fa-envelope"></i>
+                            <i className="fa-solid fa-envelope"></i>
                             <p>ashishrollingshutter@gmail.com</p>
                           </div>
                         </NavLink>
@@ -108,20 +108,20 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                         <h3>Global</h3>
 
                         <div className="map-location-detail">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <p>Ashish Rolling Shutter</p>
                         </div>
 
                         <NavLink to="tel:+918850366693">
                           <div className="map-location-detail">
-                            <i class="fa-solid fa-phone"></i>
+                            <i className="fa-solid fa-phone"></i>
                             <p>+918850366693</p>
                           </div>
                         </NavLink>
 
                         <NavLink to="mailto:ashishrollingshutter@gmail.com">
                           <div className="map-location-detail">
-                            <i class="fa-solid fa-envelope"></i>
+                            <i className="fa-solid fa-envelope"></i>
                             <p>ashishrollingshutter@gmail.com</p>
                           </div>
                         </NavLink>
@@ -160,13 +160,16 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                               data-aos="fade-right" // Fade in as you scroll
                               data-aos-duration="1500"
                             >
-                              <div class="mb-4">
-                                <label for="name" class="form-label paragraph">
+                              <div className="mb-4">
+                                <label
+                                  for="name"
+                                  className="form-label paragraph"
+                                >
                                   Name*
                                 </label>
                                 <input
                                   type="text"
-                                  class="form-control"
+                                  className="form-control"
                                   id="name"
                                   value={formData.name}
                                   onChange={handleChange}
@@ -181,16 +184,16 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                               data-aos="fade-right" // Fade in as you scroll
                               data-aos-duration="1500"
                             >
-                              <div class="mb-4">
+                              <div className="mb-4">
                                 <label
                                   for="company"
-                                  class="form-label paragraph"
+                                  className="form-label paragraph"
                                 >
                                   Company*
                                 </label>
                                 <input
                                   type="text"
-                                  class="form-control"
+                                  className="form-control"
                                   value={formData.company}
                                   onChange={handleChange}
                                   id="company"
@@ -205,13 +208,16 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                               data-aos="fade-right" // Fade in as you scroll
                               data-aos-duration="1500"
                             >
-                              <div class="mb-4">
-                                <label for="state" class="form-label paragraph">
+                              <div className="mb-4">
+                                <label
+                                  for="state"
+                                  className="form-label paragraph"
+                                >
                                   Location*
                                 </label>
                                 <input
                                   type="text"
-                                  class="form-control"
+                                  className="form-control"
                                   id="state"
                                   placeholder="Maharashtra"
                                   value={formData.state}
@@ -277,13 +283,16 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                               data-aos="fade-right" // Fade in as you scroll
                               data-aos-duration="1500"
                             >
-                              <div class="mb-4">
-                                <label for="email" class="form-label paragraph">
+                              <div className="mb-4">
+                                <label
+                                  for="email"
+                                  className="form-label paragraph"
+                                >
                                   Email*
                                 </label>
                                 <input
                                   type="email"
-                                  class="form-control"
+                                  className="form-control"
                                   id="email"
                                   value={formData.email}
                                   onChange={handleChange}
@@ -298,15 +307,15 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                               data-aos="fade-right" // Fade in as you scroll
                               data-aos-duration="1500"
                             >
-                              <div class="mb-4">
+                              <div className="mb-4">
                                 <label
                                   for="message"
-                                  class="form-label paragraph"
+                                  className="form-label paragraph"
                                 >
                                   Message*
                                 </label>
                                 <textarea
-                                  class="form-control"
+                                  className="form-control"
                                   id="message"
                                   value={formData.message}
                                   onChange={handleChange}

@@ -59,7 +59,7 @@ const Footer = () => {
                             to="https://www.facebook.com/ashishrollingshutter/"
                             target="_blank"
                           >
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i className="fa-brands fa-facebook-f"></i>
                           </NavLink>
                         </li>
                         <li>
@@ -67,7 +67,7 @@ const Footer = () => {
                             to="https://www.instagram.com/ashish_rolling_shutter/"
                             target="_blank"
                           >
-                            <i class="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-instagram"></i>
                           </NavLink>
                         </li>
                         <li>
@@ -75,7 +75,7 @@ const Footer = () => {
                             to="https://www.linkedin.com/company/ashish-rolling-shutters"
                             target="_blank"
                           >
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i className="fa-brands fa-linkedin-in"></i>
                           </NavLink>
                         </li>
                         <li>
@@ -83,7 +83,7 @@ const Footer = () => {
                             to="https://x.com/AshishShutter"
                             target="_blank"
                           >
-                            <i class="fa-brands fa-twitter"></i>
+                            <i className="fa-brands fa-twitter"></i>
                           </NavLink>
                         </li>
                       </ul>
@@ -146,7 +146,7 @@ const Footer = () => {
                         target="_blank"
                       >
                         <div className="address-text">
-                          <i class="fa-solid fa-location-dot footer-icon"></i>
+                          <i className="fa-solid fa-location-dot footer-icon"></i>
                           <p>
                             Kalyan - Badlapur Rd, opp. Ashok Anil Multiplex,
                             Press Bazar, Ulhasnagar, Maharashtra 421003
@@ -174,7 +174,7 @@ const Footer = () => {
 
                       <a href="tel:+918850366693" className="contact-links">
                         <div className="phone-mail-text">
-                          <i class="fa-solid fa-phone footer-icon"></i>
+                          <i className="fa-solid fa-phone footer-icon"></i>
                           <p>+918850366693</p>
                         </div>
                       </a>
@@ -183,7 +183,7 @@ const Footer = () => {
                         className="contact-links"
                       >
                         <div className="phone-mail-text">
-                          <i class="fa-solid fa-envelope footer-icon"></i>
+                          <i className="fa-solid fa-envelope footer-icon"></i>
                           <p>ashishrollingshutter@gmail.com</p>
                         </div>
                       </a>
@@ -232,7 +232,7 @@ const Footer = () => {
               </div>
               {/* <div className="go-up-btn">
               <NavLink to="/#home-banner">
-                <i class="fa-solid fa-arrow-up"></i>
+                <i className="fa-solid fa-arrow-up"></i>
               </NavLink>
             </div> */}
             </div>

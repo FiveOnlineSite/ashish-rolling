@@ -78,7 +78,7 @@ const CollectionSlider = ({ items = [], settings }) => {
             <div className="modal-content">
               <div className="modal-header">
                 <button type="button" onClick={closeModal}>
-                  <i class="fa-solid fa-circle-xmark"></i>
+                  <i className="fa-solid fa-circle-xmark"></i>
                 </button>
               </div>
               <div className="modal-body">
