@@ -83,7 +83,7 @@ const Footer = () => {
                             to="https://x.com/AshishShutter"
                             target="_blank"
                           >
-                            <i className="fa-brands fa-twitter"></i>
+                            <i className="fa-brands fa-x-twitter"></i>
                           </NavLink>
                         </li>
                       </ul>

@@ -111,7 +111,7 @@ const Navbar = () => {
                       title="youtube"
                       target="_blank"
                     >
-                      <i className="fa-brands fa-twitter"></i>
+                      <i className="fa-brands fa-x-twitter"></i>
                     </NavLink>
                   </li>
                 </ul>
