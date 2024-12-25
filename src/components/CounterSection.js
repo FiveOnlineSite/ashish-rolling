@@ -83,7 +83,7 @@ const CounterSection = ({ bgImage }) => {
                         </div>
                         <div className="counter-div-text">
                           <div className="counter-nos">
-                            <Counter target={50} step={5} intervalTime={500} />
+                            <Counter target={50} step={5} intervalTime={700} />
                             <span className="counter-span">+</span>
                           </div>
                           <div className="counter-text">
@@ -140,7 +140,7 @@ const CounterSection = ({ bgImage }) => {
                             <Counter
                               target={150}
                               step={10}
-                              intervalTime={500}
+                              intervalTime={700}
                             />
                             <span className="counter-span">+</span>
                           </div>

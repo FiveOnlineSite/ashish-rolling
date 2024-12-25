@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import Odometer from "odometer";
 import "odometer/themes/odometer-theme-default.css";
 
-const Counter = ({ target, step = 1, intervalTime = 500 }) => {
+const Counter = ({ target, step = 1, intervalTime = 800 }) => {
   const [count, setCount] = useState(0);
   const odometerRef = useRef(null);
 
