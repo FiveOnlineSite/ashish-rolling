@@ -39,46 +39,46 @@ const IndiaMapLocations = [
     tel: "+918850366693",
     position: { left: "59%", top: "38%" },
   },
-  {
-    name: "Sikkim",
-    tel: "+918850366693",
-    position: { left: "70%", top: "33%" },
-  },
-  {
-    name: "Assam",
-    tel: "+918850366693",
-    position: { left: "86%", top: "36%" },
-  },
-  {
-    name: "Meghalaya",
-    tel: "+918850366693",
-    position: { left: "80%", top: "39%" },
-  },
-  {
-    name: "Arunachal Pradesh",
-    tel: "+918850366693",
-    position: { left: "90%", top: "28%" },
-  },
-  {
-    name: "Nagaland",
-    tel: "+918850366693",
-    position: { left: "91%", top: "36%" },
-  },
-  {
-    name: "Manipur",
-    tel: "+918850366693",
-    position: { left: "89%", top: "40%" },
-  },
-  {
-    name: "Mizoram",
-    tel: "+918850366693",
-    position: { left: "86%", top: "45%" },
-  },
-  {
-    name: "Tripura",
-    tel: "+918850366693",
-    position: { left: "82%", top: "45%" },
-  },
+  // {
+  //   name: "Sikkim",
+  //   tel: "+918850366693",
+  //   position: { left: "70%", top: "33%" },
+  // },
+  // {
+  //   name: "Assam",
+  //   tel: "+918850366693",
+  //   position: { left: "86%", top: "36%" },
+  // },
+  // {
+  //   name: "Meghalaya",
+  //   tel: "+918850366693",
+  //   position: { left: "80%", top: "39%" },
+  // },
+  // {
+  //   name: "Arunachal Pradesh",
+  //   tel: "+918850366693",
+  //   position: { left: "90%", top: "28%" },
+  // },
+  // {
+  //   name: "Nagaland",
+  //   tel: "+918850366693",
+  //   position: { left: "91%", top: "36%" },
+  // },
+  // {
+  //   name: "Manipur",
+  //   tel: "+918850366693",
+  //   position: { left: "89%", top: "40%" },
+  // },
+  // {
+  //   name: "Mizoram",
+  //   tel: "+918850366693",
+  //   position: { left: "86%", top: "45%" },
+  // },
+  // {
+  //   name: "Tripura",
+  //   tel: "+918850366693",
+  //   position: { left: "82%", top: "45%" },
+  // },
 
   {
     name: "Uttar Pradesh",
