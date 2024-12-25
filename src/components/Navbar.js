@@ -60,7 +60,11 @@ const Navbar = () => {
                 </div>
 
                 <div className="contact-link">
-                  <NavLink to="/" target="_blank" rel="noopener noreferrer">
+                  <NavLink
+                    to="https://maps.app.goo.gl/ggtoNcepTANay1Wx8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="fa-solid fa-location-dot"></i>
                     <p>Ulhasnagar, Maharashtra 421003</p>
                   </NavLink>
@@ -103,7 +107,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <NavLink
-                      to="https://x.com//AshishShutter"
+                      to="https://x.com/AshishShutter"
                       title="youtube"
                       target="_blank"
                     >

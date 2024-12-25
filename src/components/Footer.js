@@ -80,7 +80,7 @@ const Footer = () => {
                         </li>
                         <li>
                           <NavLink
-                            to="https://x.com//AshishShutter"
+                            to="https://x.com/AshishShutter"
                             target="_blank"
                           >
                             <i class="fa-brands fa-twitter"></i>
@@ -140,7 +140,11 @@ const Footer = () => {
 
                       {/* <h6 className="footer-titles ">Find Us Here</h6> */}
 
-                      <NavLink to="/" className="contact-links">
+                      <NavLink
+                        to="https://maps.app.goo.gl/WLWWsUsBeST3Yhrt9"
+                        className="contact-links"
+                        target="_blank"
+                      >
                         <div className="address-text">
                           <i class="fa-solid fa-location-dot footer-icon"></i>
                           <p>
