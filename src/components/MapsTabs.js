@@ -142,9 +142,9 @@ const MapsTabs = () => {
                         <div className="map-pin"></div>
                         <div className="location-data">
                           <h6>{location.name}</h6>
-                          <a href={`tel:${location.tel}`}>
+                          <NavLink to={`tel:${location.tel}`}>
                             <p>{location.tel}</p>
-                          </a>
+                          </NavLink>
                         </div>
                       </div>
                     ))}
