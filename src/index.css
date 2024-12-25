@@ -1122,7 +1122,7 @@ body {
 .map-detail-container {
   background-color: var(--white-font);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 20px 20px;
+  padding: 15px;
   margin: 20px 0;
   border-radius: 10px;
 }
@@ -1149,7 +1149,7 @@ body {
 .map-location-detail i {
   margin-right: 10px;
   color: var(--dark-gray-font);
-  font-size: 20px;
+  font-size: 14px;
   transition: color ease 0.3s;
 }
 
@@ -1479,7 +1479,7 @@ body {
   background-color: var(--white-font);
   padding: 30px 20px;
   margin: 20px 20px 20px 0px;
-  width: 85%;
+  width: 100%;
   box-shadow: 0 4px 12px 0 rgba(107, 107, 107, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
@@ -1501,9 +1501,9 @@ body {
   transition: color 0.8s ease;
 }
 
-.customer-support-div .customer-connect:hover a {
+.customer-support-div .customer-connect:hover a,
+.customer-support-div .customer-connect:hover i {
   color: var(--dark-red-font);
-  text-decoration: underline;
 }
 
 .support-img1 {

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import IndiaMapLocations from "./IndiaMapLocations";
 import GlobalMapLocations from "./GlobalMapLocations";
+import { NavLink } from "react-router-dom";
 
 const MapsTabs = () => {
   const [activeTab, setActiveTab] = useState("pan-india");
@@ -102,19 +103,19 @@ const MapsTabs = () => {
                       <p>Ashish Rolling Shutter</p>
                     </div>
 
-                    <a href="tel:+91423053534">
+                    <NavLink to="tel:+918850366693">
                       <div className="map-location-detail">
                         <i class="fa-solid fa-phone"></i>
-                        <p>+91423053534</p>
+                        <p>+918850366693</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="mailto:officemail@gmail.com">
+                    <NavLink to="mailto:ashishrollingshutter@gmail.com">
                       <div className="map-location-detail">
                         <i class="fa-solid fa-envelope"></i>
-                        <p>officemail@gmail.com</p>
+                        <p>ashishrollingshutter@gmail.com</p>
                       </div>
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
 
@@ -167,19 +168,19 @@ const MapsTabs = () => {
                       <p>Ashish Rolling Shutter</p>
                     </div>
 
-                    <a href="tel:+91423053534">
+                    <NavLink to="tel:+918850366693">
                       <div className="map-location-detail">
                         <i class="fa-solid fa-phone"></i>
-                        <p>+91423053534</p>
+                        <p>+918850366693</p>
                       </div>
-                    </a>
+                    </NavLink>
 
-                    <a href="mailto:officemail@gmail.com">
+                    <NavLink to="mailto:ashishrollingshutter@gmail.com">
                       <div className="map-location-detail">
                         <i class="fa-solid fa-envelope"></i>
-                        <p>officemail@gmail.com</p>
+                        <p>ashishrollingshutter@gmail.com</p>
                       </div>
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
 

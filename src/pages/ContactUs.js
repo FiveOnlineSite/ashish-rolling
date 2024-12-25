@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import MapsTabs from "../components/MapsTabs";
@@ -83,19 +84,19 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                           <p>Ashish Rolling Shutter</p>
                         </div>
 
-                        <a href="tel:+91423053534">
+                        <NavLink to="tel:+918850366693">
                           <div className="map-location-detail">
                             <i class="fa-solid fa-phone"></i>
-                            <p>+91423053534</p>
+                            <p>+918850366693</p>
                           </div>
-                        </a>
+                        </NavLink>
 
-                        <a href="mailto:officemail@gmail.com">
+                        <NavLink to="mailto:ashishrollingshutter@gmail.com">
                           <div className="map-location-detail">
                             <i class="fa-solid fa-envelope"></i>
-                            <p>officemail@gmail.com</p>
+                            <p>ashishrollingshutter@gmail.com</p>
                           </div>
-                        </a>
+                        </NavLink>
                       </div>
                     </div>
                     <div className="col-lg-5">
@@ -111,19 +112,19 @@ My name is ${formData.name}, and I can be reached at ${formData.email} and ${for
                           <p>Ashish Rolling Shutter</p>
                         </div>
 
-                        <a href="tel:+91423053534">
+                        <NavLink to="tel:+918850366693">
                           <div className="map-location-detail">
                             <i class="fa-solid fa-phone"></i>
-                            <p>+91423053534</p>
+                            <p>+918850366693</p>
                           </div>
-                        </a>
+                        </NavLink>
 
-                        <a href="mailto:officemail@gmail.com">
+                        <NavLink to="mailto:ashishrollingshutter@gmail.com">
                           <div className="map-location-detail">
                             <i class="fa-solid fa-envelope"></i>
-                            <p>officemail@gmail.com</p>
+                            <p>ashishrollingshutter@gmail.com</p>
                           </div>
-                        </a>
+                        </NavLink>
                       </div>
                     </div>
                   </div>

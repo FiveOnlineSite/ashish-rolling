@@ -51,18 +51,18 @@ const Navbar = () => {
               >
                 <div className="contact-link">
                   <NavLink
-                    to="mailto:contact@example.com"
+                    to="mailto:ashishrollingshutter@gmail.com"
                     rel="noopener noreferrer"
                   >
                     <i className="fa-solid fa-envelope"></i>
-                    <p>contact@example.com</p>
+                    <p>ashishrollingshutter@gmail.com</p>
                   </NavLink>
                 </div>
 
                 <div className="contact-link">
                   <NavLink to="/" target="_blank" rel="noopener noreferrer">
                     <i className="fa-solid fa-location-dot"></i>
-                    <p>Worli, Mumbai, Maharashtra 400025/30</p>
+                    <p>Ulhasnagar, Maharashtra 421003</p>
                   </NavLink>
                 </div>
               </div>

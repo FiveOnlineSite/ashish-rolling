@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import Odometer from "odometer";
 import "odometer/themes/odometer-theme-default.css";
 
-const Counter = ({ target }) => {
+const Counter = ({ target, step = 1, intervalTime = 500 }) => {
   const [count, setCount] = useState(0);
   const odometerRef = useRef(null);
 
@@ -24,7 +24,7 @@ const Counter = ({ target }) => {
         format: "(,ddd)",
       }).render();
     }
-  }, [formatCount]); // Add formatCount as a dependency
+  }, [formatCount]);
 
   // Update the Odometer whenever count changes
   useEffect(() => {
@@ -38,19 +38,19 @@ const Counter = ({ target }) => {
     if (count < target) {
       const interval = setInterval(() => {
         setCount((prevCount) => {
-          const newCount = prevCount + 1;
+          const newCount = prevCount + step;
           if (newCount <= target) {
             return newCount;
           } else {
             clearInterval(interval);
-            return prevCount;
+            return target; // Ensure we don't exceed the target
           }
         });
-      }, 1000);
+      }, intervalTime);
 
       return () => clearInterval(interval); // Cleanup on unmount
     }
-  }, [count, target]);
+  }, [count, target, step, intervalTime]);
 
   return (
     <div className="odometer-counter">

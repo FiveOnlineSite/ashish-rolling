@@ -164,7 +164,12 @@ const Support = () => {
                         </span>
                       </h5>
 
-                      <NavLink to="tel:+919324874287">+91 9324874287</NavLink>
+                      <NavLink to="tel:+918850366693">
+                        <div className="map-location-detail">
+                          <i class="fa-solid fa-phone"></i>
+                          <p>+918850366693</p>
+                        </div>
+                      </NavLink>
                     </div>
                   </div>
 
@@ -178,13 +183,16 @@ const Support = () => {
                         <span>
                           <img src="/images/small-logo.png" alt="logo" />
                         </span>
-                        <span>Write to Us</span>{" "}
+                        <span>Write to Us</span>
                         <span>
                           <img src="/images/small-logo.png" alt="logo" />
                         </span>
                       </h5>
-                      <NavLink to="mailto:contact@example.com">
-                        contact@example.com
+                      <NavLink to="mailto:ashishrollingshutter@gmail.com">
+                        <div className="map-location-detail">
+                          <i class="fa-solid fa-envelope"></i>
+                          <p>ashishrollingshutter@gmail.com</p>
+                        </div>
                       </NavLink>
                     </div>
                   </div>

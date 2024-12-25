@@ -43,12 +43,14 @@ const Footer = () => {
                     data-aos-duration="1500"
                   >
                     <div className="footer-logo">
-                      <img
-                        src="/images/white-logo.png"
-                        alt="logo"
-                        width={"150px"}
-                        height={"100px"}
-                      />
+                      <NavLink to="/">
+                        <img
+                          src="/images/white-logo.png"
+                          alt="logo"
+                          width={"150px"}
+                          height={"100px"}
+                        />
+                      </NavLink>
                     </div>
                     <div className="social-links">
                       <ul>
@@ -142,8 +144,8 @@ const Footer = () => {
                         <div className="address-text">
                           <i class="fa-solid fa-location-dot footer-icon"></i>
                           <p>
-                            HD-693 at Worli Shivaji Nagar, Worli, Mumbai,
-                            Maharashtra - 400025
+                            Kalyan - Badlapur Rd, opp. Ashok Anil Multiplex,
+                            Press Bazar, Ulhasnagar, Maharashtra 421003
                           </p>
                         </div>
                       </NavLink>
@@ -166,19 +168,19 @@ const Footer = () => {
                         </span>
                       </h6>
 
-                      <a href="tel: +91 9324874287" className="contact-links">
+                      <a href="tel:+918850366693" className="contact-links">
                         <div className="phone-mail-text">
                           <i class="fa-solid fa-phone footer-icon"></i>
-                          <p>+91 9324874287</p>
+                          <p>+918850366693</p>
                         </div>
                       </a>
                       <a
-                        href="mailto: contact@example.com"
+                        href="mailto:ashishrollingshutter@gmail.com"
                         className="contact-links"
                       >
                         <div className="phone-mail-text">
                           <i class="fa-solid fa-envelope footer-icon"></i>
-                          <p>contact@example.com</p>
+                          <p>ashishrollingshutter@gmail.com</p>
                         </div>
                       </a>
                     </div>
