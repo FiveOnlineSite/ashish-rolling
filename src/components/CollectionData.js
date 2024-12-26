@@ -356,23 +356,17 @@ const CollectionData = [
         slug: "sliding-shutter",
         paragraph:
           "Ashish Rolling Shutter offers premium Sliding Shutters designed to provide robust security, smooth operation, and long-lasting durability. Engineered with precision and crafted using high-quality materials, our sliding shutters are ideal for industrial and commercial premises that require space-saving solutions with maximum protection.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/sliding-shutter/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Aluminium rolling shutter/IMG_3543.jpg",
+              "/images/products/sliding-shutter/73d2058d-2a71-4afe-acd8-06c254bc3d3c.jpg",
           },
           {
-            image_url:
-              "/images/products/Aluminium rolling shutter/IMG_3545.jpg",
+            image_url: "/images/products/sliding-shutter/IMG_0443 1.png",
           },
           {
-            image_url:
-              "/images/products/Aluminium rolling shutter/IMG_3551 1.png",
-          },
-          {
-            image_url:
-              "/images/products/Aluminium rolling shutter/IMG_9741 1.png",
+            image_url: "/images/products/sliding-shutter/IMG_9101 1.png",
           },
         ],
 
@@ -708,23 +702,53 @@ const CollectionData = [
         slug: "polycarbonate-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutter brings you advanced Polycarbonate Rolling Shutters that combine exceptional durability with elegant transparency. Designed for commercial spaces, storefronts, and modern architectural applications, these shutters ensure security while maintaining clear visibility, making them a perfect blend of style and function.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/polycarbonated-rolling/banner.png",
         image: [
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+            image_url: "/images/products/polycarbonated-rolling/IMG_1834 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+            image_url: "/images/products/polycarbonated-rolling/IMG_3534 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+            image_url: "/images/products/polycarbonated-rolling/IMG_3535 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+            image_url: "/images/products/polycarbonated-rolling/IMG_3536 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3537 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3538 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3539 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3540 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3695 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3696 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3697 1.png",
+          },
+
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3698 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3699 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_3700 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-rolling/IMG_7265 1.png",
           },
         ],
 
@@ -1799,23 +1823,49 @@ const CollectionData = [
         slug: "perforated-rolling-shutter",
         paragraph:
           "Perforated Rolling Shutters offer the perfect combination of security, ventilation, and visibility. Designed for commercial, retail, and industrial spaces, these shutters allow airflow and light penetration while providing robust protection against unauthorized access. Their unique design integrates seamlessly with modern architecture, making them ideal for storefronts, showrooms, parking garages, and industrial units.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/perforated-rolling/banner.png",
         image: [
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+            image_url: "/images/products/perforated-rolling/IMG_0051 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+            image_url: "/images/products/perforated-rolling/IMG_4984 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+            image_url: "/images/products/perforated-rolling/IMG_4992 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+            image_url: "/images/products/perforated-rolling/IMG_4993 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_4995 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_4997 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_5001 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_5886 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_5887 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_5888 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_5889 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_5903 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_5904 1.png",
+          },
+          {
+            image_url: "/images/products/perforated-rolling/IMG_6716 1.png",
           },
         ],
 
@@ -2151,23 +2201,41 @@ const CollectionData = [
         slug: "sliding-polycarbonate-shutter",
         paragraph:
           "Sliding Polycarbonate Shutters are the perfect combination of robust security, clear transparency, and modern aesthetics. These shutters are ideal for commercial establishments, retail storefronts, and areas requiring visibility without compromising on protection. Engineered with high-quality polycarbonate panels and a sliding mechanism, they provide a smooth and practical access solution while enhancing the overall appeal of any space.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/polycarbonated-sliding/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/polycarbonated-sliding/9067f128-112c-4b1c-a725-2da72f1fc573.jpg",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+            image_url: "/images/products/polycarbonated-sliding/IMG_3466 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+            image_url: "/images/products/polycarbonated-sliding/IMG_3524 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+            image_url: "/images/products/polycarbonated-sliding/IMG_3526 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-sliding/IMG_3527 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-sliding/IMG_3528 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-sliding/IMG_3529 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-sliding/IMG_3701 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-sliding/IMG_3702 2.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-sliding/IMG_3703 1.png",
+          },
+          {
+            image_url: "/images/products/polycarbonated-sliding/IMG_3704 1.png",
           },
         ],
 
