@@ -180,7 +180,7 @@ const CollectionData = [
         slug: "galvanised-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutter offers an unbeatable combination of strength, security, and durability with its Galvanised Rolling Shutters. Designed for heavy-duty industrial use, our shutters are crafted from high-quality galvanized steel sourced from trusted suppliers like TATA and Jindal. With minimal maintenance required, our shutters provide long-lasting protection for a variety of applications, ensuring peace of mind in even the toughest conditions.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/Galvanised rolling shutter/banner.png",
         image: [
           {
             image_url:
@@ -536,19 +536,19 @@ const CollectionData = [
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/Aluminium rolling shutter/IMG_3543 1.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+              "/images/products/Aluminium rolling shutter/IMG_3545 1.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+              "/images/products/Aluminium rolling shutter/IMG_3551 3.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+              "/images/products/Aluminium rolling shutter/IMG_9741 2.png",
           },
         ],
 
@@ -893,23 +893,31 @@ const CollectionData = [
         slug: "grill-type-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutter brings you Grill Type Rolling Shutters that seamlessly blend security, visibility, and ventilation. Perfect for commercial, residential, and industrial spaces, these shutters offer reliable protection against theft and vandalism while complementing modern architectural aesthetics.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/Grill type/banner.png",
         image: [
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+            image_url: "/images/products/Grill type/IMG_2462 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+            image_url: "/images/products/Grill type/IMG_3518 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+            image_url: "/images/products/Grill type/IMG_3519 1.png",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+            image_url: "/images/products/Grill type/IMG_3520 1.png",
+          },
+          {
+            image_url: "/images/products/Grill type/IMG_3521 1.png",
+          },
+          {
+            image_url: "/images/products/Grill type/IMG_3522 1.png",
+          },
+          {
+            image_url: "/images/products/Grill type/IMG_3523 2.png",
+          },
+          {
+            image_url: "/images/products/Grill type/IMG_3532 1.png",
           },
         ],
 
@@ -1431,25 +1439,33 @@ const CollectionData = [
         slug: "motorized-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutters offers cutting-edge Motorized Rolling Shutters designed to combine unmatched durability with effortless operation. Perfect for industrial, commercial, and residential applications, our shutters deliver superior security and are built to withstand harsh environmental conditions.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/Motorised rolling shutter/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/Motorised rolling shutter/824e80cb-9333-4cb8-945b-4a7afee758b3.jpg",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+              "/images/products/Motorised rolling shutter/f627b2f1-558b-4c02-bab9-b60bc6fdbd6e.jpg",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+              "/images/products/Motorised rolling shutter/IMG_1849.jpg",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+              "/images/products/Motorised rolling shutter/IMG_1850.jpg",
           },
         ],
+        // videos: [
+        //   {
+        //     video_thumbnail:
+        //       "/images/products/Galvanised rolling shutter/IMG_1849.jpg",
+        //     video_url:
+        //       "/images/products/Motorised rolling shutter/filtered-D2BB78FF-F8A2-4810-9C59-E8D01AFFF3E9.mp4",
+        //   },
+        // ],
 
         key_features: [
           {
@@ -2311,23 +2327,28 @@ const CollectionData = [
         slug: "high-speed-door",
         paragraph:
           "High-speed doors provide rapid access between internal and external areas of buildings, enhancing both security and efficiency in high-traffic zones. These automatic doors are engineered to open quickly, allowing for faster movement of materials, personnel, and goods, which significantly accelerates the logistics and workflow process. With their advanced design, high-speed doors are perfect for environments that require frequent access while maintaining controlled conditions, such as temperature, hygiene, and dust levels.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/high-speed/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/high-speed/9b392488-1897-4f3f-b3c6-b1e5cf9d70a8.jpg",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+              "/images/products/high-speed/344acc75-158d-45b7-9d21-1f21afd12a61.jpg",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+              "/images/products/high-speed/9217fc64-6693-4049-9688-c5d02c19df66.jpg",
           },
           {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+            image_url: "/images/products/high-speed/IMG_3548.jpg",
+          },
+          {
+            image_url: "/images/products/high-speed/IMG_3549.jpg",
+          },
+          {
+            image_url: "/images/products/high-speed/IMG_3550.jpg",
           },
         ],
 
