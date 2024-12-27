@@ -184,7 +184,11 @@ const Navbar = () => {
                     <div className="dropdown-flex">
                       {/* Group 1 with two columns side by side */}
                       <div className="dropdown-group">
-                        <h5 className="dropdown-title">Rolling Shutters</h5>
+                        <NavLink to="/category/rolling-shutter">
+                          <h5 className="dropdown-title ps-0">
+                            Rolling Shutters
+                          </h5>
+                        </NavLink>
                         <div className="dropdown-columns">
                           <div className="dropdown-column1">
                             <NavLink
@@ -286,7 +290,9 @@ const Navbar = () => {
 
                       {/* Group 2 with one column */}
                       <div className="dropdown-group">
-                        <h5 className="dropdown-title">Gates</h5>
+                        <NavLink to="/category/gates">
+                          <h5 className="dropdown-title ps-0">Gates</h5>
+                        </NavLink>
                         <div className="dropdown-column">
                           <NavLink
                             to="/gates/swing-gate"
