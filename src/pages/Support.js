@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const Support = () => {
   const bannerData = {
-    bannerImg: "/images/banners/about-us-banner.jpg",
+    bannerImg: "/images/banners/support-banner.png",
     title: "Support",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },

@@ -1680,6 +1680,22 @@ body {
   position: absolute;
   top: 49%;
   left: 49.8%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* Ensure it is above the thumbnail image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.video-thumbnail-container {
+  position: relative;
+}
+
+.slider-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .play-icon-overlay i {

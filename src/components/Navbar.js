@@ -229,12 +229,12 @@ const Navbar = () => {
                             >
                               Slotted Strip rolling shutter
                             </NavLink>
-                            <NavLink
+                            {/* <NavLink
                               to="/rolling-shutter/aluminium-rib-type-shutter"
                               className="dropdown-item"
                             >
                               Aluminium rib type shutter
-                            </NavLink>
+                            </NavLink> */}
                           </div>
 
                           <div className="dropdown-column1">

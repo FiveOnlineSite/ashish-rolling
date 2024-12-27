@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 
 const AboutUs = () => {
   const bannerData = {
-    bannerImg: "/images/banners/about-us-banner.jpg",
+    bannerImg: "/images/banners/about-banner.png",
     title: "About us",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },

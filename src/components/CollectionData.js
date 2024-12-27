@@ -369,6 +369,16 @@ const CollectionData = [
             image_url: "/images/products/sliding-shutter/IMG_9101 1.png",
           },
         ],
+        videos: [
+          {
+            video_thumbnail: "/images/products/sliding-shutter/video2.png",
+            video_url: "/images/products/sliding-shutter/IMG_9103.mp4",
+          },
+          {
+            video_thumbnail: "/images/products/sliding-shutter/video1.png",
+            video_url: "/images/products/sliding-shutter/IMG_0441.mp4",
+          },
+        ],
 
         key_features: [
           {
@@ -755,9 +765,9 @@ const CollectionData = [
         videos: [
           {
             video_thumbnail:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+              "/images/products/polycarbonated-rolling/polycarbonate-rolling-video1.png",
             video_url:
-              "/images/products/Motorised rolling shutter/filtered-D2BB78FF-F8A2-4810-9C59-E8D01AFFF3E9.mp4",
+              "/images/products/polycarbonated-rolling/filtered-D2BB78FF-F8A2-4810-9C59-E8D01AFFF3E9.mp4",
           },
         ],
 
@@ -944,6 +954,16 @@ const CollectionData = [
             image_url: "/images/products/Grill type/IMG_3532 1.png",
           },
         ],
+        videos: [
+          {
+            video_thumbnail: "/images/products/Grill type/grill-video1.png",
+            video_url: "/images/products/Grill type/IMG_2470.mp4",
+          },
+          {
+            video_thumbnail: "/images/products/Grill type/grill-video2.png",
+            video_url: "/images/products/Grill type/IMG_3533.mp4",
+          },
+        ],
 
         key_features: [
           {
@@ -1098,26 +1118,26 @@ const CollectionData = [
     products: [
       {
         productName: "Slotted Strip Rolling Shutters",
-        slug: "slotted-strip-rolling-shutters",
+        slug: "slotted-strip-rolling-shutter",
         paragraph:
           "Ashish Rolling Shutters introduces Slotted Strip Rolling Shutters, offering the perfect blend of security, ventilation, and aesthetics. Designed for commercial, industrial, and residential spaces, these shutters ensure airflow, partial visibility, and robust protection while enhancing modern architecture.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/slotted-strip/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/slotted-strip/pixlr-image-generator-450caadd-3039-4876-9735-57b9027813c2.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+              "/images/products/slotted-strip/pixlr-image-generator-09f7f2cc-5fce-4c39-b29c-979f9d4882ac.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+              "/images/products/slotted-strip/pixlr-image-generator-45226491-26e6-48b5-a072-2b61dfedc9bd.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+              "/images/products/slotted-strip/pixlr-image-generator-f05175c3-bcb5-4fc3-ae9f-944120e549c3.png",
           },
         ],
 
@@ -1276,182 +1296,182 @@ const CollectionData = [
       },
     ],
   },
-  {
-    category: "Rolling Shutter",
+  // {
+  //   category: "Rolling Shutter",
 
-    category_slug: "rolling-shutter",
+  //   category_slug: "rolling-shutter",
 
-    products: [
-      {
-        productName: "Aluminium Rib Type Shutter",
-        slug: "aluminium-rib-type-shutter",
-        paragraph:
-          "Aluminium Rib Type Shutters offer the perfect combination of durability, style, and security. Designed for both commercial and industrial applications, these shutters are engineered to provide superior protection while maintaining an aesthetically pleasing appearance. Ideal for retail shops, warehouses, garages, and industrial facilities, aluminium rib type shutters are known for their robust structure and lightweight design.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
-        image: [
-          {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
-          },
-          {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
-          },
-          {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
-          },
-          {
-            image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
-          },
-        ],
+  //   products: [
+  //     {
+  //       productName: "Aluminium Rib Type Shutter",
+  //       slug: "aluminium-rib-type-shutter",
+  //       paragraph:
+  //         "Aluminium Rib Type Shutters offer the perfect combination of durability, style, and security. Designed for both commercial and industrial applications, these shutters are engineered to provide superior protection while maintaining an aesthetically pleasing appearance. Ideal for retail shops, warehouses, garages, and industrial facilities, aluminium rib type shutters are known for their robust structure and lightweight design.",
+  //       bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+  //       image: [
+  //         {
+  //           image_url:
+  //             "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+  //         },
+  //         {
+  //           image_url:
+  //             "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+  //         },
+  //         {
+  //           image_url:
+  //             "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+  //         },
+  //         {
+  //           image_url:
+  //             "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+  //         },
+  //       ],
 
-        key_features: [
-          {
-            type: "Durable Aluminium Construction: ",
-            content:
-              "Made from high-quality aluminium alloy, these shutters are resistant to corrosion, ensuring long-lasting durability, even in harsh environmental conditions.",
-          },
-          {
-            type: "Modern Ribbed Design: ",
-            content:
-              "The ribbed structure enhances the strength and visual appeal of the shutters, providing a sleek and contemporary look while offering superior protection.",
-          },
-          {
-            type: "Lightweight and Easy to Operate: ",
-            content:
-              "The aluminium material ensures that the shutters are lightweight, making them easy to operate manually or with automated systems.",
-          },
-        ],
+  //       key_features: [
+  //         {
+  //           type: "Durable Aluminium Construction: ",
+  //           content:
+  //             "Made from high-quality aluminium alloy, these shutters are resistant to corrosion, ensuring long-lasting durability, even in harsh environmental conditions.",
+  //         },
+  //         {
+  //           type: "Modern Ribbed Design: ",
+  //           content:
+  //             "The ribbed structure enhances the strength and visual appeal of the shutters, providing a sleek and contemporary look while offering superior protection.",
+  //         },
+  //         {
+  //           type: "Lightweight and Easy to Operate: ",
+  //           content:
+  //             "The aluminium material ensures that the shutters are lightweight, making them easy to operate manually or with automated systems.",
+  //         },
+  //       ],
 
-        choose: [
-          {
-            type: "Superior Strength and Security: ",
-            image: "/images/icons/skills.png",
-            content:
-              "Designed with enhanced ribbed construction, these shutters offer maximum security while ensuring the protection of your premises from external threats.",
-          },
-          {
-            type: "Aesthetic Appeal: ",
-            image: "/images/icons/secure.png",
-            content:
-              "The ribbed design not only enhances the strength but also adds a modern touch, making them a perfect fit for any contemporary architectural space.",
-          },
-          {
-            type: "Corrosion-Resistant and Low Maintenance: ",
-            image: "/images/icons/low.png",
-            content:
-              "Aluminium’s natural corrosion resistance reduces maintenance efforts, making these shutters ideal for both indoor and outdoor installations.",
-          },
-          {
-            type: "Flexible Installation Options: ",
-            image: "/images/icons/low.png",
-            content:
-              "Suitable for a variety of applications, including storefronts, warehouses, garages, and residential areas. Can be installed manually or automated for ease of use.",
-          },
-        ],
-        trusted: [
-          {
-            para: "Our aluminium rib type shutters are designed and manufactured with precision, ensuring top-tier performance and quality. Crafted by experienced professionals using advanced manufacturing techniques, these shutters meet the highest standards for durability and security.",
-          },
-        ],
-      },
-    ],
-    otherproducts: [
-      {
-        id: 1,
-        productImg: "/images/rolling-shutters/aluminium.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Ms Rolling shutter",
-        url: "/products/motorized-rolling-gates/aluminium-rolling-shutters",
-      },
-      {
-        id: 2,
-        productImg: "/images/rolling-shutters/galvalume.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Galvanised rolling shutter",
-        url: "/products/motorized-rolling-gates/galvalume-rolling-shutters",
-      },
-      {
-        id: 3,
-        productImg: "/images/rolling-shutters/galvanized.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Sliding shutter",
-        url: "/products/motorized-rolling-gates/galvanized-rolling-shutters",
-      },
-      {
-        id: 4,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Gear operated rolling shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 5,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Motorises Rolling shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 6,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Aluminium rolling shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 7,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Pollycarbonate rolling shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 8,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Grill type rolling shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 9,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Slotted strip rolling shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 10,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Aluminium rib type shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 11,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "Sliding polycarbonate shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 12,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "High speed door",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-      {
-        id: 13,
-        productImg: "/images/rolling-shutters/rolling-grill.jpg",
-        brochureImg: "/images/excellent-expertise.jpg",
-        productName: "PVC rolling shutter",
-        url: "/products/motorized-rolling-gates/rolling-grill-shutters",
-      },
-    ],
-  },
+  //       choose: [
+  //         {
+  //           type: "Superior Strength and Security: ",
+  //           image: "/images/icons/skills.png",
+  //           content:
+  //             "Designed with enhanced ribbed construction, these shutters offer maximum security while ensuring the protection of your premises from external threats.",
+  //         },
+  //         {
+  //           type: "Aesthetic Appeal: ",
+  //           image: "/images/icons/secure.png",
+  //           content:
+  //             "The ribbed design not only enhances the strength but also adds a modern touch, making them a perfect fit for any contemporary architectural space.",
+  //         },
+  //         {
+  //           type: "Corrosion-Resistant and Low Maintenance: ",
+  //           image: "/images/icons/low.png",
+  //           content:
+  //             "Aluminium’s natural corrosion resistance reduces maintenance efforts, making these shutters ideal for both indoor and outdoor installations.",
+  //         },
+  //         {
+  //           type: "Flexible Installation Options: ",
+  //           image: "/images/icons/low.png",
+  //           content:
+  //             "Suitable for a variety of applications, including storefronts, warehouses, garages, and residential areas. Can be installed manually or automated for ease of use.",
+  //         },
+  //       ],
+  //       trusted: [
+  //         {
+  //           para: "Our aluminium rib type shutters are designed and manufactured with precision, ensuring top-tier performance and quality. Crafted by experienced professionals using advanced manufacturing techniques, these shutters meet the highest standards for durability and security.",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  //   otherproducts: [
+  //     {
+  //       id: 1,
+  //       productImg: "/images/rolling-shutters/aluminium.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Ms Rolling shutter",
+  //       url: "/products/motorized-rolling-gates/aluminium-rolling-shutters",
+  //     },
+  //     {
+  //       id: 2,
+  //       productImg: "/images/rolling-shutters/galvalume.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Galvanised rolling shutter",
+  //       url: "/products/motorized-rolling-gates/galvalume-rolling-shutters",
+  //     },
+  //     {
+  //       id: 3,
+  //       productImg: "/images/rolling-shutters/galvanized.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Sliding shutter",
+  //       url: "/products/motorized-rolling-gates/galvanized-rolling-shutters",
+  //     },
+  //     {
+  //       id: 4,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Gear operated rolling shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 5,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Motorises Rolling shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 6,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Aluminium rolling shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 7,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Pollycarbonate rolling shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 8,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Grill type rolling shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 9,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Slotted strip rolling shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 10,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Aluminium rib type shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 11,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "Sliding polycarbonate shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 12,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "High speed door",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //     {
+  //       id: 13,
+  //       productImg: "/images/rolling-shutters/rolling-grill.jpg",
+  //       brochureImg: "/images/excellent-expertise.jpg",
+  //       productName: "PVC rolling shutter",
+  //       url: "/products/motorized-rolling-gates/rolling-grill-shutters",
+  //     },
+  //   ],
+  // },
   {
     category: "Rolling Shutter",
 
@@ -1482,14 +1502,20 @@ const CollectionData = [
               "/images/products/Motorised rolling shutter/IMG_1850.jpg",
           },
         ],
-        // videos: [
-        //   {
-        //     video_thumbnail:
-        //       "/images/products/Galvanised rolling shutter/IMG_1849.jpg",
-        //     video_url:
-        //       "/images/products/Motorised rolling shutter/filtered-D2BB78FF-F8A2-4810-9C59-E8D01AFFF3E9.mp4",
-        //   },
-        // ],
+        videos: [
+          {
+            video_thumbnail:
+              "/images/products/Motorised rolling shutter/motorised-video1.png",
+            video_url:
+              "/images/products/Motorised rolling shutter/filtered-D2BB78FF-F8A2-4810-9C59-E8D01AFFF3E9.mp4",
+          },
+          {
+            video_thumbnail:
+              "/images/products/Motorised rolling shutter/motorised-video2.png",
+            video_url:
+              "/images/products/Motorised rolling shutter/IMG_2232.mp4",
+          },
+        ],
 
         key_features: [
           {
@@ -1647,23 +1673,23 @@ const CollectionData = [
         slug: "insulated-rolling-shutter",
         paragraph:
           "Insulated Rolling Shutters are the ideal solution for maintaining a controlled environment while ensuring superior security and durability. Designed to minimize energy loss and withstand extreme weather conditions, these shutters seamlessly combine functionality with aesthetics, making them perfect for warehouses, loading bays, factories, and industrial facilities.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/insulated-rolling/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/insulated-rolling/pixlr-image-generator-8bd99ab6-fa25-4e0b-bbf5-461878eefd78.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+              "/images/products/insulated-rolling/pixlr-image-generator-37d07402-e51b-42dc-8779-147efd36f944.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+              "/images/products/insulated-rolling/pixlr-image-generator-7376da58-0e88-45d5-a954-d019faf485bf.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+              "/images/products/insulated-rolling/pixlr-image-generator-c833d63a-a9e7-4399-b71f-b90e0051740f.png",
           },
         ],
 
@@ -1869,6 +1895,30 @@ const CollectionData = [
           },
         ],
 
+        videos: [
+          {
+            video_thumbnail:
+              "/images/products/perforated-rolling/perforated-video1.png",
+            video_url:
+              "/images/products/perforated-rolling/2CD2408D-1316-4FCA-B244-A63C3D02A7E8.mp4",
+          },
+          {
+            video_thumbnail:
+              "/images/products/perforated-rolling/perforated-video2.png",
+            video_url: "/images/products/perforated-rolling/IMG_6380.mp4",
+          },
+          {
+            video_thumbnail:
+              "/images/products/perforated-rolling/perforated-video3.png",
+            video_url: "/images/products/perforated-rolling/IMG_9506.mp4",
+          },
+          {
+            video_thumbnail:
+              "/images/products/perforated-rolling/perforated-video4.png",
+            video_url: "/images/products/perforated-rolling/IMG_9768.mp4",
+          },
+        ],
+
         key_features: [
           {
             type: "Enhanced Visibility and Ventilation:",
@@ -2025,23 +2075,23 @@ const CollectionData = [
         slug: "aluminium-shutters-with-vision-panel",
         paragraph:
           "Aluminium Shutters with Vision Panels are the perfect solution for spaces requiring high security, durability, and partial visibility. Designed Aluminium shutter with vision panelwith integrated vision panels, these shutters combine the strength of robust aluminum construction with clear panels for visibility, making them ideal for commercial, retail, and industrial applications. Whether it’s for storefronts, warehouses, or secure areas, these shutters provide functionality without compromising on style.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/aluminium-vision/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/aluminium-vision/pixlr-image-generator-9eafdaaa-510b-449a-9ac1-5c451bd2aff1.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+              "/images/products/aluminium-vision/pixlr-image-generator-65b5d244-d6cf-424a-bddd-aa5623e04053.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+              "/images/products/aluminium-vision/pixlr-image-generator-631d2186-2f61-4072-927b-ea6664a3b938.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+              "/images/products/aluminium-vision/pixlr-image-generator-f2b34cb5-425a-43b0-a363-07e66fe35d6b.png",
           },
         ],
 
@@ -2576,23 +2626,23 @@ const CollectionData = [
         slug: "pvc-rolling-shutter",
         paragraph:
           "PVC Rolling Shutters offer an excellent solution for protecting commercial and residential spaces with the added benefit of being lightweight yet highly durable. These shutters provide both security and aesthetics, making them ideal for storefronts, warehouses, garages, and more. Made from high-quality PVC material, they are resistant to corrosion, weather, and wear, ensuring long-lasting performance in various environmental conditions. The ease of operation, low maintenance needs, and customizable features make PVC Rolling Shutters a popular choice for enhancing security without compromising on style.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/pvc-rolling/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/pvc-rolling/pixlr-image-generator-8cde6c86-5456-49c8-861a-4846b5754961.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+              "/images/products/pvc-rolling/pixlr-image-generator-ced2c70e-a2d3-4cfb-a99e-a26add425c55.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+              "/images/products/pvc-rolling/pixlr-image-generator-e799e03b-b91c-4885-916f-59b761b88680.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+              "/images/products/pvc-rolling/pixlr-image-generator-ee1c6d12-4610-40fa-b260-c9286f619c7c.png",
           },
         ],
 
@@ -3456,23 +3506,38 @@ const CollectionData = [
         slug: "motorised-gate",
         paragraph:
           "Motorised gates offer the perfect blend of security, convenience, and advanced automation for both residential and industrial properties. Designed to provide seamless and safe access, these gates are manufactured with high-quality materials and cutting-edge technology, ensuring long-lasting performance and reliability. Motorised swing gates are ideal for properties that require secure entry points with minimal manual intervention.",
-        bannerImg: "/images/products/Aluminium rolling shutter/banner.png",
+        bannerImg: "/images/products/Motorised rolling shutter/banner.png",
         image: [
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_2796 1.png",
+              "/images/products/Motorised rolling shutter/824e80cb-9333-4cb8-945b-4a7afee758b3.jpg",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_7309 1.png",
+              "/images/products/Motorised rolling shutter/f627b2f1-558b-4c02-bab9-b60bc6fdbd6e.jpg",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_8443 1.png",
+              "/images/products/Motorised rolling shutter/IMG_1849.png",
           },
           {
             image_url:
-              "/images/products/Galvanised rolling shutter/IMG_9360 1.png",
+              "/images/products/Motorised rolling shutter/IMG_1850.png",
+          },
+        ],
+
+        videos: [
+          {
+            video_thumbnail:
+              "/images/products/Motorised rolling shutter/grill-video1.png",
+            video_url:
+              "/images/products/Motorised rolling shutter/filtered-D2BB78FF-F8A2-4810-9C59-E8D01AFFF3E9.mp4",
+          },
+          {
+            video_thumbnail:
+              "/images/products/Motorised rolling shutter/grill-video2.png",
+            video_url:
+              "/images/products/Motorised rolling shutter/IMG_2232.mp4",
           },
         ],
 

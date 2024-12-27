@@ -44,7 +44,7 @@ const CollectionSlider = ({ items = [], settings }) => {
           items.map((item, index) => (
             <div className="element" key={index}>
               {item.video ? (
-                <div className="video-thumbnail-container">
+                <div className="video-thumbnail-container" key={index}>
                   <img
                     className="slider-thumbnail"
                     src={item.image || item.video_thumbnail}
