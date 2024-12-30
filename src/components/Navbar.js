@@ -720,15 +720,6 @@ const Navbar = () => {
                         </div>
                       </div>
                     </li>
-                    {/* <li className="nav-item">
-                      <NavLink
-                        className="nav-link"
-                        to="/brochures"
-                        title="Brochures"
-                      >
-                        Brochures
-                      </NavLink>
-                    </li> */}
 
                     <li className="nav-item">
                       <NavLink

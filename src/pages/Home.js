@@ -42,7 +42,7 @@ const Home = () => {
 
   const ProductsSlider = [
     {
-      image: "/images/products/motorised-gates.jpg",
+      image: "/images/products/ms-rolling/download-_1__enhanced.png",
       productName: "M.s Rolling Shutter",
       url: "/rolling-shutter/ms-rolling-shutter", // Add URL here
     },
@@ -57,7 +57,8 @@ const Home = () => {
       url: "/rolling-shutter/motorized-rolling-shutter",
     },
     {
-      image: "/images/products/industrial-gates.jpg",
+      image:
+        "/images/products/industrial-sliding/download (2) (1)_enhanced.jpg",
       productName: "Industrial Sliding Gate",
       url: "/gates/industrial-sliding-gate",
     },

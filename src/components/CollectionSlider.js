@@ -85,6 +85,7 @@ const CollectionSlider = ({ items = [], settings }) => {
                 {selectedVideo ? (
                   <video
                     controls
+                    autoPlay
                     className="modal-video"
                     onCanPlay={() => {
                       if (videoRef.current) {
