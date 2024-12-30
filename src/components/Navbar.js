@@ -551,6 +551,12 @@ const Navbar = () => {
                                   >
                                     <div className="accordion-body">
                                       <NavLink
+                                        to="/category/rolling-shutter"
+                                        className="dropdown-item"
+                                      >
+                                        All
+                                      </NavLink>
+                                      <NavLink
                                         to="/rolling-shutter/ms-rolling-shutter"
                                         className="dropdown-item"
                                       >
@@ -662,6 +668,12 @@ const Navbar = () => {
                                     data-bs-parent="#accordionExample"
                                   >
                                     <div className="accordion-body">
+                                      <NavLink
+                                        to="/category/gates"
+                                        className="dropdown-item"
+                                      >
+                                        All
+                                      </NavLink>
                                       <NavLink
                                         to="/gates/swing-gate"
                                         className="dropdown-item"
