@@ -38,9 +38,9 @@ const MapsTabs = () => {
               data-aos="fade-up" // Fade in as you scroll
               data-aos-duration="1500"
             >
-              <b>{activeTab === "pan-india" ? "26 + " : "10 + "}</b>
+              <b>{activeTab === "pan-india" ? "26 + " : "3 + "}</b>
               {activeTab === "pan-india"
-                ? "Cities In India"
+                ? "States In India"
                 : "Countries Globally"}
             </h2>
           </div>
