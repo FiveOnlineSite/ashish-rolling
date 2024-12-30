@@ -63,7 +63,7 @@ const Home = () => {
     },
 
     {
-      image: "/images/products/hangar-doors.jpg",
+      image: "/images/products/folding-gates/images (1)_enhanced.png",
       productName: "Folding Gate",
       url: "/gates/folding-gate",
     },
